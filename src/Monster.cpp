@@ -1,32 +1,42 @@
-#include "Player.h"
 #include "Monster.h"
+#include "Player.h"
 #include <iostream>
 
-Monster::Monster(std::string id, std::string name, int health, int attackPower, int defense) {
+Monster::Monster(const std::string& id, const std::string& name, int health, int attackPower, int defense, int expReward) {
     this->id = id;
     this->name = name;
+    this->maxHealth = health;
     this->health = health;
     this->attackPower = attackPower;
     this->defense = defense;
+    this->expReward = expReward;
+}
+
+Monster::Monster(const Monster& other) {
+    this->id = other.id;
+    this->name = other.name;
+    this->maxHealth = other.maxHealth;
+    this->health = other.maxHealth;
+    this->attackPower = other.attackPower;
+    this->defense = other.defense;
+    this->expReward = other.expReward;
+    this->dropItemIds = other.dropItemIds;
 }
 
 void Monster::attack(Player* target) {
-    std::cout << name << " attacks! Damage: " << attackPower << std::endl;
-    target->takeDamage(attackPower);
+    int damage = attackPower - target->getDefense();
+    if (damage < 1) damage = 1;
+    std::cout << name << " attacks! Damage: " << damage << std::endl;
+    target->takeDamage(damage);
 }
 
 void Monster::takeDamage(int amount) {
     health -= amount;
-    std::cout << name << " takes " << amount << " damage. HP: " << health << std::endl;
-    if (health <= 0) {
-        dropLoot();
-    }
+    std::cout << name << " takes " << amount << " damage. HP: " << health << "/" << maxHealth << std::endl;
 }
 
-void Monster::dropLoot() {
-    std::cout << name << " dies and drops loot!" << std::endl;
+void Monster::addDropItemId(const std::string& itemId) {
+    dropItemIds.push_back(itemId);
 }
 
-std::string Monster::getName() {
-    return name;
-}
+Monster::~Monster() {}

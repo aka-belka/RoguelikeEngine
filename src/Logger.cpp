@@ -1,11 +1,10 @@
 #include "Logger.h"
 #include <iostream>
+#include <fstream>
 
 Logger* Logger::instance = nullptr;
 
-Logger::Logger() {
-    logFile = "game.log";
-}
+Logger::Logger() {}
 
 Logger* Logger::getInstance() {
     if (instance == nullptr) {
@@ -14,12 +13,20 @@ Logger* Logger::getInstance() {
     return instance;
 }
 
-void Logger::write(std::string message) {
+void Logger::write(const std::string& message) {
     messages.push_back(message);
-    std::cout << "[LOG] " << message << std::endl;
 }
 
-void Logger::save() {
-    // здесь можно сохранить в файл
-    std::cout << "Saving log..." << std::endl;
+void Logger::saveToFile(const std::string& filename) {
+    std::ofstream file(filename);
+    if (file.is_open()) {
+        for (const auto& msg : messages) {
+            file << msg << std::endl;
+        }
+        file.close();
+    }
+}
+
+Logger::~Logger() {
+    saveToFile("../game.log");
 }

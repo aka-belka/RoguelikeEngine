@@ -1,0 +1,4 @@
+id,name,health,attack,defense,expReward,drops
+goblin_csv,Goblin_1,45,13,4,55,health_potion_1;health_potion_2
+orc_csv,Orc_1,75,19,6,110,iron_sword
+troll_csv,Troll_1,110,16,11,160,super_potion

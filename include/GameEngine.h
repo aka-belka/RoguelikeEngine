@@ -11,14 +11,14 @@ private:
     Level* currentLevel;
     Player* player;
     ModLoader* modLoader;
-    Logger* logger;
-    std::string gameState;
+    bool isRunning;
+    int currentLevelNumber;
 
 public:
     GameEngine();
     void start();
     void loadMods();
-    void update();
+    void gameOver();
     ~GameEngine();
 };
 

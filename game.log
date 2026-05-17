@@ -1,0 +1,37 @@
+GameEngine created
+Game started
+Loading mods...
+Loading rooms...
+Loaded room type: Starting Room (start)
+Loaded room type: Normal Room (normal)
+Loaded room type: Treasure Room (treasure)
+Loaded room type: Boss Room (boss)
+ed rooms: 
+Loading monsters.csv...
+Loaded monster from CSV: Goblin_1
+Loaded monster from CSV: Orc_1
+Loaded monster from CSV: Troll_1
+Loading monsters.json...
+  Loaded monster from JSON: Goblin
+  Loaded monster from JSON: Orc
+  Loaded monster from JSON: Troll
+  Loaded monster from JSON: Skeleton
+monsters: 
+Loading items.csv...
+Loaded item from CSV: Health Potion
+Loaded item from CSV: Health Potion
+Loaded item from CSV: Super Potion
+Loaded item from CSV: Iron Sword
+Loaded item from CSV: Wooden Shield
+Loading items.json...
+  Loaded item from JSON: Health Potion
+  Loaded item from JSON: Super Potion
+  Loaded item from JSON: Iron Sword
+  Loaded item from JSON: Wooden Shield
+  Loaded item from JSON: Gold Coin
+ms: 
+Mods loaded successfully
+Generating level8x8...
+[BOSS] Orc_1 spawned!
+Level generated with 42 enemies!
+Game over

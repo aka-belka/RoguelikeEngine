@@ -1,8 +1,13 @@
 #include "Room.h"
+#include "Monster.h"
+#include "ModLoader.h"
 #include <iostream>
 
-Room::Room(std::string type) {
+Room::Room(int x, int y, std::string type) {
+    this->x = x;
+    this->y = y;
     this->type = type;
+    this->isCleared = false;
 }
 
 void Room::addMonster(Monster* monster) {
@@ -13,15 +18,18 @@ void Room::addItem(Item* item) {
     items.push_back(item);
 }
 
-void Room::createMonsters() {
-    std::cout << "Creating monsters in " << type << " room..." << std::endl;
-}
-
-void Room::createItems() {
-    std::cout << "Creating items in " << type << " room..." << std::endl;
-}
 
 void Room::clearMonsters() {
+    for (Monster* monster : monsters) {
+        delete monster;
+    }
     monsters.clear();
-    std::cout << "All monsters cleared from " << type << " room" << std::endl;
+    isCleared = true;
+}
+
+Room::~Room() {
+    clearMonsters();
+    for (Item* item : items) {
+        delete item;
+    }
 }

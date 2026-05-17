@@ -1,0 +1,38 @@
+[
+  {
+    "id": "goblin_001",
+    "name": "Goblin",
+    "health": 40,
+    "attack": 12,
+    "defense": 3,
+    "expReward": 50,
+    "drops": "health_potion_001,gold_001"
+  },
+  {
+    "id": "orc_001",
+    "name": "Orc",
+    "health": 70,
+    "attack": 18,
+    "defense": 5,
+    "expReward": 100,
+    "drops": "iron_sword_001"
+  },
+  {
+    "id": "troll_001",
+    "name": "Troll",
+    "health": 100,
+    "attack": 15,
+    "defense": 10,
+    "expReward": 150,
+    "drops": "health_potion_002"
+  },
+  {
+    "id": "skeleton_001",
+    "name": "Skeleton",
+    "health": 30,
+    "attack": 10,
+    "defense": 2,
+    "expReward": 40,
+    "drops": "wooden_shield_001"
+  }
+]

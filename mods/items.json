@@ -1,0 +1,32 @@
+[
+  {
+    "id": "health_potion_001",
+    "name": "Health Potion",
+    "type": "potion",
+    "healAmount": 50
+  },
+  {
+    "id": "health_potion_002",
+    "name": "Super Potion",
+    "type": "potion",
+    "healAmount": 100
+  },
+  {
+    "id": "iron_sword_001",
+    "name": "Iron Sword",
+    "type": "weapon",
+    "attackBonus": 10
+  },
+  {
+    "id": "wooden_shield_001",
+    "name": "Wooden Shield",
+    "type": "armor",
+    "defenseBonus": 5
+  },
+  {
+    "id": "gold_001",
+    "name": "Gold Coin",
+    "type": "misc",
+    "value": 10
+  }
+]

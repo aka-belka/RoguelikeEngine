@@ -7,14 +7,14 @@
 class Logger {
 private:
     static Logger* instance;
-    std::string logFile;
     std::vector<std::string> messages;
-    Logger(); // приватный конструктор
+    Logger();
 
 public:
     static Logger* getInstance();
-    void write(std::string message);
-    void save();
+    void write(const std::string& message);
+    void saveToFile(const std::string& filename);
+    ~Logger();
 };
 
 #endif

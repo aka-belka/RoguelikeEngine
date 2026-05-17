@@ -1,0 +1,6 @@
+id,name,type,healAmount,attackBonus,defenseBonus
+health_potion_1,Health Potion,potion,50,0,0
+health_potion_2,Health Potion,potion,50,0,0
+super_potion,Super Potion,potion,100,0,0
+iron_sword,Iron Sword,weapon,0,10,0
+wooden_shield,Wooden Shield,armor,0,0,5

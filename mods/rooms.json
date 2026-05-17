@@ -1,0 +1,30 @@
+[
+    {
+        "type": "start",
+        "name": "Starting Room",
+        "monsterSpawnChance": 0,
+        "itemSpawnChance": 0,
+        "isBoss": false
+    },
+    {
+        "type": "normal",
+        "name": "Normal Room",
+        "monsterSpawnChance": 70,
+        "itemSpawnChance": 20,
+        "isBoss": false
+    },
+    {
+        "type": "treasure",
+        "name": "Treasure Room",
+        "monsterSpawnChance": 30,
+        "itemSpawnChance": 100,
+        "isBoss": false
+    },
+    {
+        "type": "boss",
+        "name": "Boss Room",
+        "monsterSpawnChance": 100,
+        "itemSpawnChance": 0,
+        "isBoss": true
+    }
+]

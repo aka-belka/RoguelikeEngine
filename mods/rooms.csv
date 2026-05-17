@@ -1,0 +1,5 @@
+type,name,monsterSpawnChance,itemSpawnChance,isBoss
+start,Starting Room,0,0,false
+normal,Normal Room,70,20,false
+treasure,Treasure Room,30,100,false
+boss,Boss Room,100,0,true

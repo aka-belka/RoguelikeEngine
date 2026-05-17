@@ -4,16 +4,24 @@
 #include <vector>
 #include "Room.h"
 
+class ModLoader;
+
 class Level {
 private:
-    int size;
+    int width;
+    int height;
     std::vector<std::vector<Room*>> rooms;
+    int enemiesRemaining;
 
 public:
-    Level(int size);
-    void generate();
+    Level(int width, int height);
+    void generate(ModLoader* modLoader);
     Room* getRoom(int x, int y);
-    void printLevel();
+    int getWidth() const { return width; }
+    int getHeight() const { return height; }
+    int getEnemiesRemaining() const { return enemiesRemaining; }
+    void enemyDefeated();
+    ~Level();
 };
 
 #endif

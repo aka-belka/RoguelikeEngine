@@ -1,9 +1,14 @@
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
 #include "GameEngine.h"
 
 int main() {
-    std::cout << "Roguelike Engine v1.0" << std::endl;
-    std::cout << "Starting game engine..." << std::endl;
+    std::srand(static_cast<unsigned int>(std::time(nullptr)));
+    
+    std::cout << "========================================" << std::endl;
+    std::cout << "       ROGUELIKE ENGINE                 " << std::endl;
+    std::cout << "========================================" << std::endl;
     
     GameEngine engine;
     engine.start();

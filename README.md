@@ -96,7 +96,7 @@ roguelike_game.exe
 | `--level N` | Начать с уровня N (по умолчанию: 1) | `roguelike_game --level 5` |
 | `--width N` | Ширина подземелья в комнатах (по умолчанию: 8) | `roguelike_game --width 10` |
 | `--height N` | Высота подземелья в комнатах (по умолчанию: 8) | `roguelike_game --height 10` |
-| `--mods PATH` | Путь к папке с модами (по умолчанию: ../mods/) | `roguelike_game --mods . а./my_mods/` |
+| `--mods PATH` | Путь к папке с модами (по умолчанию: ../mods/) | `roguelike_game --mods ../my_mods/` |
 
 ### Игровой процесс
 

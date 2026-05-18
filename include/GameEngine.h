@@ -14,6 +14,11 @@ private:
     bool isRunning;
     int currentLevelNumber;
 
+    int startLevel;
+    int dungeonWidth;
+    int dungeonHeight;
+    std::string modsPath;
+
 public:
     GameEngine();
     void start();
@@ -26,6 +31,10 @@ public:
     int getCurrentLevelNumber() const { return currentLevelNumber; }
     bool isGameRunning() const { return isRunning; }
     ModLoader* getModLoader() const { return modLoader; }
+
+    void setStartLevel(int level) { startLevel = level; currentLevelNumber = startLevel; }
+    void setDungeonSize(int width, int height) { dungeonWidth = width; dungeonHeight = height; }
+    void setModsPath(const std::string& path);
 };
 
 #endif

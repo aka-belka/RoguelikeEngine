@@ -1,6 +1,6 @@
 GameEngine created
 Game started
-Loading mods...
+Loading mods from ../mods1/
 Loading rooms from CSV...
 Loaded room type from CSV: Starting Room
 Loaded room type from CSV: Normal Room
@@ -37,6 +37,6 @@ Loading monsters.json...
 Loaded 7 monsters
 Mods loaded successfully!
 Generating level 8x8...
-[BOSS] Skeleton spawned!
-Level generated successfully with 45 enemies!
+[BOSS] Goblin_1 spawned!
+Level generated successfully with 41 enemies!
 Game over

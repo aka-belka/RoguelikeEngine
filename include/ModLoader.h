@@ -22,7 +22,7 @@ private:
     std::vector<RoomTypeData> roomTypes;
 
 public:
-    ModLoader();
+    ModLoader(const std::string& path = "../mods/");
     void loadAll();
     void loadMonsters();
     void loadItems();
@@ -30,6 +30,7 @@ public:
     void loadItemsFromCSV();
     void loadRooms();
     void loadRoomsFromCSV();
+    void setModsPath(const std::string& path) { modsPath = path; }
     const std::vector<RoomTypeData>& getRoomTypes() const { return roomTypes; }
     bool itemExists(const std::string& id) const { return itemMap.count(id) > 0; }
     Item* createItem(const std::string& id);

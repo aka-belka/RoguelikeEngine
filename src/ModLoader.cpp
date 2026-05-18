@@ -5,8 +5,7 @@
 #include <sstream>
 #include <regex>
 
-ModLoader::ModLoader() {
-    modsPath = "../mods/";
+ModLoader::ModLoader(const std::string& path) : modsPath(path) {
 }
 
 std::string ModLoader::readFile(const std::string& path) {

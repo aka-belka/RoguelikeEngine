@@ -2,11 +2,16 @@
 #include <iostream>
 
 GameEngine::GameEngine() {
-    modLoader = new ModLoader();
+    startLevel = 1;
+    dungeonWidth = 8;
+    dungeonHeight = 8;
+    modsPath = "../mods/";
+
+    modLoader = new ModLoader(modsPath);
     player = nullptr;
     currentLevel = nullptr;
     isRunning = false;
-    currentLevelNumber = 1;
+    currentLevelNumber = startLevel;
     Logger::getInstance()->write("GameEngine created");
 }
 
@@ -21,7 +26,7 @@ void GameEngine::start() {
         std::cout << "========================================" << std::endl;
 
         if (currentLevel) delete currentLevel;
-        currentLevel = new Level(8, 8);
+        currentLevel = new Level(dungeonWidth, dungeonHeight);
         currentLevel->generate(modLoader);
         
         player->setPosition(0, 0);
@@ -209,9 +214,16 @@ void GameEngine::start() {
 }
 
 void GameEngine::loadMods() {
-    Logger::getInstance()->write("Loading mods...");
+    Logger::getInstance()->write("Loading mods from " + modsPath);
     modLoader->loadAll();
     Logger::getInstance()->write("Mods loaded successfully!");
+}
+
+void GameEngine::setModsPath(const std::string& path) {
+    modsPath = path;
+    if (modLoader) {
+        modLoader->setModsPath(path);
+    }
 }
 
 void GameEngine::gameOver() {

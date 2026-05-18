@@ -88,6 +88,16 @@ roguelike_game.exe
 
 Первый запуск `cmake` скачивает Catch2 с GitHub (нужен интернет).
 
+### Аргументы командной строки
+
+| Аргумент | Описание | Пример |
+|---|---|---|
+| `--help` | Показать справку| `roguelike_game --help` |
+| `--level N` | Начать с уровня N (по умолчанию: 1) | `roguelike_game --level 5` |
+| `--width N` | Ширина подземелья в комнатах (по умолчанию: 8) | `roguelike_game --width 10` |
+| `--height N` | Высота подземелья в комнатах (по умолчанию: 8) | `roguelike_game --height 10` |
+| `--mods PATH` | Путь к папке с модами (по умолчанию: ../mods/) | `roguelike_game --mods . а./my_mods/` |
+
 ### Игровой процесс
 
 | Команда | Действие |
@@ -220,6 +230,13 @@ docker run --rm --entrypoint /usr/local/bin/scenarios/scenario_2_level_generatio
 
 ```bash
 docker run --rm --entrypoint sh roguelike-game:latest -c "for f in /usr/local/bin/scenarios/scenario_*; do $f; done"
+```
+
+### 6. Запуск с аргументами
+
+```bash
+docker run -it --rm roguelike-game:latest --level 5 --width 10 --height 10
+docker run -it --rm roguelike-game:latest --help
 ```
 
 ---

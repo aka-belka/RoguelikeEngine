@@ -142,22 +142,28 @@ Commands: (w/a/s/d) move, (f)ight, (i)nventory, (p)ickup, (q)uit
 ========================================
 ```
 
-### Тестирование (КР №4)
+---
 
-Запуск unit-тестов
+## Тестирование (КР №4)
+
+Чтобы все корректно отображалось рекомендуется временно переключить кодировку консоли командой `chcp 65001`.
+
+Запуск unit-тестов:
 
 ```bash
 cd build/tests
-./roguelike_tests.exe
+roguelike_tests.exe
 ```
 
-Запуск сценариев
+Запуск сценариев:
 
 ```bash
 cd build/scenarios
-./scenario_01_game_start.exe
-./scenario_02_level_generation.exe
+scenario_1_game_start.exe
+scenario_2_level_generation.exe
 # ... и так далее
+
+for %f in (scenario_*.exe) do %f      #для запуска всех сценариев
 ```
 
 Список сценариев и пояснения: `tests/Тестовые_сценарии.txt`.

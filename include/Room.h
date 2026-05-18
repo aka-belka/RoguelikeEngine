@@ -32,6 +32,7 @@ public:
     std::vector<Monster*>& getMonsters() { return monsters; }
     std::vector<Item*>& getItems() { return items; }
     std::string getType() const { return type; }
+    bool isClearedRoom() const { return isCleared; }
     ~Room();
 };
 

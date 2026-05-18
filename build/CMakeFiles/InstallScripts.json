@@ -1,7 +1,9 @@
 {
 	"InstallScripts" : 
 	[
-		"D:/RoguelikeEngine/build/cmake_install.cmake"
+		"D:/RoguelikeEngine/build/cmake_install.cmake",
+		"D:/RoguelikeEngine/build/tests/cmake_install.cmake",
+		"D:/RoguelikeEngine/build/scenarios/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

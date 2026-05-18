@@ -20,6 +20,12 @@ public:
     void loadMods();
     void gameOver();
     ~GameEngine();
+
+    Player* getPlayer() const { return player; }
+    Level* getCurrentLevel() const { return currentLevel; }
+    int getCurrentLevelNumber() const { return currentLevelNumber; }
+    bool isGameRunning() const { return isRunning; }
+    ModLoader* getModLoader() const { return modLoader; }
 };
 
 #endif

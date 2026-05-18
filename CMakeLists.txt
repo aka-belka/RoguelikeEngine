@@ -1,22 +1,23 @@
-cmake_minimum_required(VERSION 3.10)
-project(RoguelikeEngine VERSION 1.0 LANGUAGES CXX)
+cmake_minimum_required(VERSION 3.14)
+project(RoguelikeGame)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
 
-include_directories(${CMAKE_SOURCE_DIR}/include)
+include_directories(include)
 
-set(SOURCES
-    src/main.cpp
-    src/Monster.cpp
-    src/Player.cpp
-    src/Item.cpp
-    src/Room.cpp
-    src/Level.cpp
-    src/GameEngine.cpp
-    src/ModLoader.cpp
-    src/Logger.cpp
-)
+file(GLOB SOURCES "src/*.cpp")
 
-add_executable(RoguelikeEngine ${SOURCES})
+add_executable(roguelike_game ${SOURCES}) 
+target_include_directories(roguelike_game PRIVATE include)
+
+option(BUILD_TESTS "Build unit tests" ON)
+option(BUILD_SCENARIOS "Build scenario mini-programs" ON)
+
+if(BUILD_TESTS)
+    add_subdirectory(tests)
+endif()
+
+if(BUILD_SCENARIOS)
+    add_subdirectory(scenarios)
+endif()

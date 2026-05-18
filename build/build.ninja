@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: RoguelikeEngine
+# Project: RoguelikeGame
 # Configurations: 
 # =============================================================================
 
@@ -36,112 +36,112 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/RoguelikeEngine/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target RoguelikeEngine
+# Object build statements for EXECUTABLE target roguelike_game
 
 
 #############################################
-# Order-only phony target for RoguelikeEngine
+# Order-only phony target for roguelike_game
 
-build cmake_object_order_depends_target_RoguelikeEngine: phony || .
+build cmake_object_order_depends_target_roguelike_game: phony || .
 
-build CMakeFiles/RoguelikeEngine.dir/src/main.cpp.obj: CXX_COMPILER__RoguelikeEngine_unscanned_ D$:/RoguelikeEngine/src/main.cpp || cmake_object_order_depends_target_RoguelikeEngine
-  DEP_FILE = CMakeFiles\RoguelikeEngine.dir\src\main.cpp.obj.d
-  FLAGS = -std=c++17
+build CMakeFiles/roguelike_game.dir/src/GameEngine.cpp.obj: CXX_COMPILER__roguelike_game_unscanned_ D$:/RoguelikeEngine/src/GameEngine.cpp || cmake_object_order_depends_target_roguelike_game
+  DEP_FILE = CMakeFiles\roguelike_game.dir\src\GameEngine.cpp.obj.d
+  FLAGS = -std=gnu++17
   INCLUDES = -ID:/RoguelikeEngine/include
-  OBJECT_DIR = CMakeFiles\RoguelikeEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\RoguelikeEngine.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\RoguelikeEngine.dir\
-  TARGET_PDB = RoguelikeEngine.pdb
+  OBJECT_DIR = CMakeFiles\roguelike_game.dir
+  OBJECT_FILE_DIR = CMakeFiles\roguelike_game.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\roguelike_game.dir\
+  TARGET_PDB = roguelike_game.pdb
 
-build CMakeFiles/RoguelikeEngine.dir/src/Monster.cpp.obj: CXX_COMPILER__RoguelikeEngine_unscanned_ D$:/RoguelikeEngine/src/Monster.cpp || cmake_object_order_depends_target_RoguelikeEngine
-  DEP_FILE = CMakeFiles\RoguelikeEngine.dir\src\Monster.cpp.obj.d
-  FLAGS = -std=c++17
+build CMakeFiles/roguelike_game.dir/src/Item.cpp.obj: CXX_COMPILER__roguelike_game_unscanned_ D$:/RoguelikeEngine/src/Item.cpp || cmake_object_order_depends_target_roguelike_game
+  DEP_FILE = CMakeFiles\roguelike_game.dir\src\Item.cpp.obj.d
+  FLAGS = -std=gnu++17
   INCLUDES = -ID:/RoguelikeEngine/include
-  OBJECT_DIR = CMakeFiles\RoguelikeEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\RoguelikeEngine.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\RoguelikeEngine.dir\
-  TARGET_PDB = RoguelikeEngine.pdb
+  OBJECT_DIR = CMakeFiles\roguelike_game.dir
+  OBJECT_FILE_DIR = CMakeFiles\roguelike_game.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\roguelike_game.dir\
+  TARGET_PDB = roguelike_game.pdb
 
-build CMakeFiles/RoguelikeEngine.dir/src/Player.cpp.obj: CXX_COMPILER__RoguelikeEngine_unscanned_ D$:/RoguelikeEngine/src/Player.cpp || cmake_object_order_depends_target_RoguelikeEngine
-  DEP_FILE = CMakeFiles\RoguelikeEngine.dir\src\Player.cpp.obj.d
-  FLAGS = -std=c++17
+build CMakeFiles/roguelike_game.dir/src/Level.cpp.obj: CXX_COMPILER__roguelike_game_unscanned_ D$:/RoguelikeEngine/src/Level.cpp || cmake_object_order_depends_target_roguelike_game
+  DEP_FILE = CMakeFiles\roguelike_game.dir\src\Level.cpp.obj.d
+  FLAGS = -std=gnu++17
   INCLUDES = -ID:/RoguelikeEngine/include
-  OBJECT_DIR = CMakeFiles\RoguelikeEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\RoguelikeEngine.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\RoguelikeEngine.dir\
-  TARGET_PDB = RoguelikeEngine.pdb
+  OBJECT_DIR = CMakeFiles\roguelike_game.dir
+  OBJECT_FILE_DIR = CMakeFiles\roguelike_game.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\roguelike_game.dir\
+  TARGET_PDB = roguelike_game.pdb
 
-build CMakeFiles/RoguelikeEngine.dir/src/Item.cpp.obj: CXX_COMPILER__RoguelikeEngine_unscanned_ D$:/RoguelikeEngine/src/Item.cpp || cmake_object_order_depends_target_RoguelikeEngine
-  DEP_FILE = CMakeFiles\RoguelikeEngine.dir\src\Item.cpp.obj.d
-  FLAGS = -std=c++17
+build CMakeFiles/roguelike_game.dir/src/Logger.cpp.obj: CXX_COMPILER__roguelike_game_unscanned_ D$:/RoguelikeEngine/src/Logger.cpp || cmake_object_order_depends_target_roguelike_game
+  DEP_FILE = CMakeFiles\roguelike_game.dir\src\Logger.cpp.obj.d
+  FLAGS = -std=gnu++17
   INCLUDES = -ID:/RoguelikeEngine/include
-  OBJECT_DIR = CMakeFiles\RoguelikeEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\RoguelikeEngine.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\RoguelikeEngine.dir\
-  TARGET_PDB = RoguelikeEngine.pdb
+  OBJECT_DIR = CMakeFiles\roguelike_game.dir
+  OBJECT_FILE_DIR = CMakeFiles\roguelike_game.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\roguelike_game.dir\
+  TARGET_PDB = roguelike_game.pdb
 
-build CMakeFiles/RoguelikeEngine.dir/src/Room.cpp.obj: CXX_COMPILER__RoguelikeEngine_unscanned_ D$:/RoguelikeEngine/src/Room.cpp || cmake_object_order_depends_target_RoguelikeEngine
-  DEP_FILE = CMakeFiles\RoguelikeEngine.dir\src\Room.cpp.obj.d
-  FLAGS = -std=c++17
+build CMakeFiles/roguelike_game.dir/src/ModLoader.cpp.obj: CXX_COMPILER__roguelike_game_unscanned_ D$:/RoguelikeEngine/src/ModLoader.cpp || cmake_object_order_depends_target_roguelike_game
+  DEP_FILE = CMakeFiles\roguelike_game.dir\src\ModLoader.cpp.obj.d
+  FLAGS = -std=gnu++17
   INCLUDES = -ID:/RoguelikeEngine/include
-  OBJECT_DIR = CMakeFiles\RoguelikeEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\RoguelikeEngine.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\RoguelikeEngine.dir\
-  TARGET_PDB = RoguelikeEngine.pdb
+  OBJECT_DIR = CMakeFiles\roguelike_game.dir
+  OBJECT_FILE_DIR = CMakeFiles\roguelike_game.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\roguelike_game.dir\
+  TARGET_PDB = roguelike_game.pdb
 
-build CMakeFiles/RoguelikeEngine.dir/src/Level.cpp.obj: CXX_COMPILER__RoguelikeEngine_unscanned_ D$:/RoguelikeEngine/src/Level.cpp || cmake_object_order_depends_target_RoguelikeEngine
-  DEP_FILE = CMakeFiles\RoguelikeEngine.dir\src\Level.cpp.obj.d
-  FLAGS = -std=c++17
+build CMakeFiles/roguelike_game.dir/src/Monster.cpp.obj: CXX_COMPILER__roguelike_game_unscanned_ D$:/RoguelikeEngine/src/Monster.cpp || cmake_object_order_depends_target_roguelike_game
+  DEP_FILE = CMakeFiles\roguelike_game.dir\src\Monster.cpp.obj.d
+  FLAGS = -std=gnu++17
   INCLUDES = -ID:/RoguelikeEngine/include
-  OBJECT_DIR = CMakeFiles\RoguelikeEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\RoguelikeEngine.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\RoguelikeEngine.dir\
-  TARGET_PDB = RoguelikeEngine.pdb
+  OBJECT_DIR = CMakeFiles\roguelike_game.dir
+  OBJECT_FILE_DIR = CMakeFiles\roguelike_game.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\roguelike_game.dir\
+  TARGET_PDB = roguelike_game.pdb
 
-build CMakeFiles/RoguelikeEngine.dir/src/GameEngine.cpp.obj: CXX_COMPILER__RoguelikeEngine_unscanned_ D$:/RoguelikeEngine/src/GameEngine.cpp || cmake_object_order_depends_target_RoguelikeEngine
-  DEP_FILE = CMakeFiles\RoguelikeEngine.dir\src\GameEngine.cpp.obj.d
-  FLAGS = -std=c++17
+build CMakeFiles/roguelike_game.dir/src/Player.cpp.obj: CXX_COMPILER__roguelike_game_unscanned_ D$:/RoguelikeEngine/src/Player.cpp || cmake_object_order_depends_target_roguelike_game
+  DEP_FILE = CMakeFiles\roguelike_game.dir\src\Player.cpp.obj.d
+  FLAGS = -std=gnu++17
   INCLUDES = -ID:/RoguelikeEngine/include
-  OBJECT_DIR = CMakeFiles\RoguelikeEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\RoguelikeEngine.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\RoguelikeEngine.dir\
-  TARGET_PDB = RoguelikeEngine.pdb
+  OBJECT_DIR = CMakeFiles\roguelike_game.dir
+  OBJECT_FILE_DIR = CMakeFiles\roguelike_game.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\roguelike_game.dir\
+  TARGET_PDB = roguelike_game.pdb
 
-build CMakeFiles/RoguelikeEngine.dir/src/ModLoader.cpp.obj: CXX_COMPILER__RoguelikeEngine_unscanned_ D$:/RoguelikeEngine/src/ModLoader.cpp || cmake_object_order_depends_target_RoguelikeEngine
-  DEP_FILE = CMakeFiles\RoguelikeEngine.dir\src\ModLoader.cpp.obj.d
-  FLAGS = -std=c++17
+build CMakeFiles/roguelike_game.dir/src/Room.cpp.obj: CXX_COMPILER__roguelike_game_unscanned_ D$:/RoguelikeEngine/src/Room.cpp || cmake_object_order_depends_target_roguelike_game
+  DEP_FILE = CMakeFiles\roguelike_game.dir\src\Room.cpp.obj.d
+  FLAGS = -std=gnu++17
   INCLUDES = -ID:/RoguelikeEngine/include
-  OBJECT_DIR = CMakeFiles\RoguelikeEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\RoguelikeEngine.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\RoguelikeEngine.dir\
-  TARGET_PDB = RoguelikeEngine.pdb
+  OBJECT_DIR = CMakeFiles\roguelike_game.dir
+  OBJECT_FILE_DIR = CMakeFiles\roguelike_game.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\roguelike_game.dir\
+  TARGET_PDB = roguelike_game.pdb
 
-build CMakeFiles/RoguelikeEngine.dir/src/Logger.cpp.obj: CXX_COMPILER__RoguelikeEngine_unscanned_ D$:/RoguelikeEngine/src/Logger.cpp || cmake_object_order_depends_target_RoguelikeEngine
-  DEP_FILE = CMakeFiles\RoguelikeEngine.dir\src\Logger.cpp.obj.d
-  FLAGS = -std=c++17
+build CMakeFiles/roguelike_game.dir/src/main.cpp.obj: CXX_COMPILER__roguelike_game_unscanned_ D$:/RoguelikeEngine/src/main.cpp || cmake_object_order_depends_target_roguelike_game
+  DEP_FILE = CMakeFiles\roguelike_game.dir\src\main.cpp.obj.d
+  FLAGS = -std=gnu++17
   INCLUDES = -ID:/RoguelikeEngine/include
-  OBJECT_DIR = CMakeFiles\RoguelikeEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\RoguelikeEngine.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\RoguelikeEngine.dir\
-  TARGET_PDB = RoguelikeEngine.pdb
+  OBJECT_DIR = CMakeFiles\roguelike_game.dir
+  OBJECT_FILE_DIR = CMakeFiles\roguelike_game.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\roguelike_game.dir\
+  TARGET_PDB = roguelike_game.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target RoguelikeEngine
+# Link build statements for EXECUTABLE target roguelike_game
 
 
 #############################################
-# Link the executable RoguelikeEngine.exe
+# Link the executable roguelike_game.exe
 
-build RoguelikeEngine.exe: CXX_EXECUTABLE_LINKER__RoguelikeEngine_ CMakeFiles/RoguelikeEngine.dir/src/main.cpp.obj CMakeFiles/RoguelikeEngine.dir/src/Monster.cpp.obj CMakeFiles/RoguelikeEngine.dir/src/Player.cpp.obj CMakeFiles/RoguelikeEngine.dir/src/Item.cpp.obj CMakeFiles/RoguelikeEngine.dir/src/Room.cpp.obj CMakeFiles/RoguelikeEngine.dir/src/Level.cpp.obj CMakeFiles/RoguelikeEngine.dir/src/GameEngine.cpp.obj CMakeFiles/RoguelikeEngine.dir/src/ModLoader.cpp.obj CMakeFiles/RoguelikeEngine.dir/src/Logger.cpp.obj
+build roguelike_game.exe: CXX_EXECUTABLE_LINKER__roguelike_game_ CMakeFiles/roguelike_game.dir/src/GameEngine.cpp.obj CMakeFiles/roguelike_game.dir/src/Item.cpp.obj CMakeFiles/roguelike_game.dir/src/Level.cpp.obj CMakeFiles/roguelike_game.dir/src/Logger.cpp.obj CMakeFiles/roguelike_game.dir/src/ModLoader.cpp.obj CMakeFiles/roguelike_game.dir/src/Monster.cpp.obj CMakeFiles/roguelike_game.dir/src/Player.cpp.obj CMakeFiles/roguelike_game.dir/src/Room.cpp.obj CMakeFiles/roguelike_game.dir/src/main.cpp.obj
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\RoguelikeEngine.dir
+  OBJECT_DIR = CMakeFiles\roguelike_game.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\RoguelikeEngine.dir\
-  TARGET_FILE = RoguelikeEngine.exe
-  TARGET_IMPLIB = libRoguelikeEngine.dll.a
-  TARGET_PDB = RoguelikeEngine.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\roguelike_game.dir\
+  TARGET_FILE = roguelike_game.exe
+  TARGET_IMPLIB = libroguelike_game.dll.a
+  TARGET_PDB = roguelike_game.pdb
 
 
 #############################################
@@ -167,9 +167,2126 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/RoguelikeEngine/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target roguelike_tests
+
+
+#############################################
+# Order-only phony target for roguelike_tests
+
+build cmake_object_order_depends_target_roguelike_tests: phony || .
+
+build tests/CMakeFiles/roguelike_tests.dir/test_main.cpp.obj: CXX_COMPILER__roguelike_tests_unscanned_ D$:/RoguelikeEngine/tests/test_main.cpp || cmake_object_order_depends_target_roguelike_tests
+  DEP_FILE = tests\CMakeFiles\roguelike_tests.dir\test_main.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include -ID:/RoguelikeEngine/tests
+  OBJECT_DIR = tests\CMakeFiles\roguelike_tests.dir
+  OBJECT_FILE_DIR = tests\CMakeFiles\roguelike_tests.dir
+  TARGET_COMPILE_PDB = tests\CMakeFiles\roguelike_tests.dir\
+  TARGET_PDB = tests\roguelike_tests.pdb
+
+build tests/CMakeFiles/roguelike_tests.dir/test_item.cpp.obj: CXX_COMPILER__roguelike_tests_unscanned_ D$:/RoguelikeEngine/tests/test_item.cpp || cmake_object_order_depends_target_roguelike_tests
+  DEP_FILE = tests\CMakeFiles\roguelike_tests.dir\test_item.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include -ID:/RoguelikeEngine/tests
+  OBJECT_DIR = tests\CMakeFiles\roguelike_tests.dir
+  OBJECT_FILE_DIR = tests\CMakeFiles\roguelike_tests.dir
+  TARGET_COMPILE_PDB = tests\CMakeFiles\roguelike_tests.dir\
+  TARGET_PDB = tests\roguelike_tests.pdb
+
+build tests/CMakeFiles/roguelike_tests.dir/test_logger.cpp.obj: CXX_COMPILER__roguelike_tests_unscanned_ D$:/RoguelikeEngine/tests/test_logger.cpp || cmake_object_order_depends_target_roguelike_tests
+  DEP_FILE = tests\CMakeFiles\roguelike_tests.dir\test_logger.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include -ID:/RoguelikeEngine/tests
+  OBJECT_DIR = tests\CMakeFiles\roguelike_tests.dir
+  OBJECT_FILE_DIR = tests\CMakeFiles\roguelike_tests.dir
+  TARGET_COMPILE_PDB = tests\CMakeFiles\roguelike_tests.dir\
+  TARGET_PDB = tests\roguelike_tests.pdb
+
+build tests/CMakeFiles/roguelike_tests.dir/test_monster.cpp.obj: CXX_COMPILER__roguelike_tests_unscanned_ D$:/RoguelikeEngine/tests/test_monster.cpp || cmake_object_order_depends_target_roguelike_tests
+  DEP_FILE = tests\CMakeFiles\roguelike_tests.dir\test_monster.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include -ID:/RoguelikeEngine/tests
+  OBJECT_DIR = tests\CMakeFiles\roguelike_tests.dir
+  OBJECT_FILE_DIR = tests\CMakeFiles\roguelike_tests.dir
+  TARGET_COMPILE_PDB = tests\CMakeFiles\roguelike_tests.dir\
+  TARGET_PDB = tests\roguelike_tests.pdb
+
+build tests/CMakeFiles/roguelike_tests.dir/test_player.cpp.obj: CXX_COMPILER__roguelike_tests_unscanned_ D$:/RoguelikeEngine/tests/test_player.cpp || cmake_object_order_depends_target_roguelike_tests
+  DEP_FILE = tests\CMakeFiles\roguelike_tests.dir\test_player.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include -ID:/RoguelikeEngine/tests
+  OBJECT_DIR = tests\CMakeFiles\roguelike_tests.dir
+  OBJECT_FILE_DIR = tests\CMakeFiles\roguelike_tests.dir
+  TARGET_COMPILE_PDB = tests\CMakeFiles\roguelike_tests.dir\
+  TARGET_PDB = tests\roguelike_tests.pdb
+
+build tests/CMakeFiles/roguelike_tests.dir/test_room.cpp.obj: CXX_COMPILER__roguelike_tests_unscanned_ D$:/RoguelikeEngine/tests/test_room.cpp || cmake_object_order_depends_target_roguelike_tests
+  DEP_FILE = tests\CMakeFiles\roguelike_tests.dir\test_room.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include -ID:/RoguelikeEngine/tests
+  OBJECT_DIR = tests\CMakeFiles\roguelike_tests.dir
+  OBJECT_FILE_DIR = tests\CMakeFiles\roguelike_tests.dir
+  TARGET_COMPILE_PDB = tests\CMakeFiles\roguelike_tests.dir\
+  TARGET_PDB = tests\roguelike_tests.pdb
+
+build tests/CMakeFiles/roguelike_tests.dir/__/src/GameEngine.cpp.obj: CXX_COMPILER__roguelike_tests_unscanned_ D$:/RoguelikeEngine/src/GameEngine.cpp || cmake_object_order_depends_target_roguelike_tests
+  DEP_FILE = tests\CMakeFiles\roguelike_tests.dir\__\src\GameEngine.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include -ID:/RoguelikeEngine/tests
+  OBJECT_DIR = tests\CMakeFiles\roguelike_tests.dir
+  OBJECT_FILE_DIR = tests\CMakeFiles\roguelike_tests.dir\__\src
+  TARGET_COMPILE_PDB = tests\CMakeFiles\roguelike_tests.dir\
+  TARGET_PDB = tests\roguelike_tests.pdb
+
+build tests/CMakeFiles/roguelike_tests.dir/__/src/Item.cpp.obj: CXX_COMPILER__roguelike_tests_unscanned_ D$:/RoguelikeEngine/src/Item.cpp || cmake_object_order_depends_target_roguelike_tests
+  DEP_FILE = tests\CMakeFiles\roguelike_tests.dir\__\src\Item.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include -ID:/RoguelikeEngine/tests
+  OBJECT_DIR = tests\CMakeFiles\roguelike_tests.dir
+  OBJECT_FILE_DIR = tests\CMakeFiles\roguelike_tests.dir\__\src
+  TARGET_COMPILE_PDB = tests\CMakeFiles\roguelike_tests.dir\
+  TARGET_PDB = tests\roguelike_tests.pdb
+
+build tests/CMakeFiles/roguelike_tests.dir/__/src/Level.cpp.obj: CXX_COMPILER__roguelike_tests_unscanned_ D$:/RoguelikeEngine/src/Level.cpp || cmake_object_order_depends_target_roguelike_tests
+  DEP_FILE = tests\CMakeFiles\roguelike_tests.dir\__\src\Level.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include -ID:/RoguelikeEngine/tests
+  OBJECT_DIR = tests\CMakeFiles\roguelike_tests.dir
+  OBJECT_FILE_DIR = tests\CMakeFiles\roguelike_tests.dir\__\src
+  TARGET_COMPILE_PDB = tests\CMakeFiles\roguelike_tests.dir\
+  TARGET_PDB = tests\roguelike_tests.pdb
+
+build tests/CMakeFiles/roguelike_tests.dir/__/src/Logger.cpp.obj: CXX_COMPILER__roguelike_tests_unscanned_ D$:/RoguelikeEngine/src/Logger.cpp || cmake_object_order_depends_target_roguelike_tests
+  DEP_FILE = tests\CMakeFiles\roguelike_tests.dir\__\src\Logger.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include -ID:/RoguelikeEngine/tests
+  OBJECT_DIR = tests\CMakeFiles\roguelike_tests.dir
+  OBJECT_FILE_DIR = tests\CMakeFiles\roguelike_tests.dir\__\src
+  TARGET_COMPILE_PDB = tests\CMakeFiles\roguelike_tests.dir\
+  TARGET_PDB = tests\roguelike_tests.pdb
+
+build tests/CMakeFiles/roguelike_tests.dir/__/src/ModLoader.cpp.obj: CXX_COMPILER__roguelike_tests_unscanned_ D$:/RoguelikeEngine/src/ModLoader.cpp || cmake_object_order_depends_target_roguelike_tests
+  DEP_FILE = tests\CMakeFiles\roguelike_tests.dir\__\src\ModLoader.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include -ID:/RoguelikeEngine/tests
+  OBJECT_DIR = tests\CMakeFiles\roguelike_tests.dir
+  OBJECT_FILE_DIR = tests\CMakeFiles\roguelike_tests.dir\__\src
+  TARGET_COMPILE_PDB = tests\CMakeFiles\roguelike_tests.dir\
+  TARGET_PDB = tests\roguelike_tests.pdb
+
+build tests/CMakeFiles/roguelike_tests.dir/__/src/Monster.cpp.obj: CXX_COMPILER__roguelike_tests_unscanned_ D$:/RoguelikeEngine/src/Monster.cpp || cmake_object_order_depends_target_roguelike_tests
+  DEP_FILE = tests\CMakeFiles\roguelike_tests.dir\__\src\Monster.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include -ID:/RoguelikeEngine/tests
+  OBJECT_DIR = tests\CMakeFiles\roguelike_tests.dir
+  OBJECT_FILE_DIR = tests\CMakeFiles\roguelike_tests.dir\__\src
+  TARGET_COMPILE_PDB = tests\CMakeFiles\roguelike_tests.dir\
+  TARGET_PDB = tests\roguelike_tests.pdb
+
+build tests/CMakeFiles/roguelike_tests.dir/__/src/Player.cpp.obj: CXX_COMPILER__roguelike_tests_unscanned_ D$:/RoguelikeEngine/src/Player.cpp || cmake_object_order_depends_target_roguelike_tests
+  DEP_FILE = tests\CMakeFiles\roguelike_tests.dir\__\src\Player.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include -ID:/RoguelikeEngine/tests
+  OBJECT_DIR = tests\CMakeFiles\roguelike_tests.dir
+  OBJECT_FILE_DIR = tests\CMakeFiles\roguelike_tests.dir\__\src
+  TARGET_COMPILE_PDB = tests\CMakeFiles\roguelike_tests.dir\
+  TARGET_PDB = tests\roguelike_tests.pdb
+
+build tests/CMakeFiles/roguelike_tests.dir/__/src/Room.cpp.obj: CXX_COMPILER__roguelike_tests_unscanned_ D$:/RoguelikeEngine/src/Room.cpp || cmake_object_order_depends_target_roguelike_tests
+  DEP_FILE = tests\CMakeFiles\roguelike_tests.dir\__\src\Room.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include -ID:/RoguelikeEngine/tests
+  OBJECT_DIR = tests\CMakeFiles\roguelike_tests.dir
+  OBJECT_FILE_DIR = tests\CMakeFiles\roguelike_tests.dir\__\src
+  TARGET_COMPILE_PDB = tests\CMakeFiles\roguelike_tests.dir\
+  TARGET_PDB = tests\roguelike_tests.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target roguelike_tests
+
+
+#############################################
+# Link the executable tests\roguelike_tests.exe
+
+build tests/roguelike_tests.exe: CXX_EXECUTABLE_LINKER__roguelike_tests_ tests/CMakeFiles/roguelike_tests.dir/test_main.cpp.obj tests/CMakeFiles/roguelike_tests.dir/test_item.cpp.obj tests/CMakeFiles/roguelike_tests.dir/test_logger.cpp.obj tests/CMakeFiles/roguelike_tests.dir/test_monster.cpp.obj tests/CMakeFiles/roguelike_tests.dir/test_player.cpp.obj tests/CMakeFiles/roguelike_tests.dir/test_room.cpp.obj tests/CMakeFiles/roguelike_tests.dir/__/src/GameEngine.cpp.obj tests/CMakeFiles/roguelike_tests.dir/__/src/Item.cpp.obj tests/CMakeFiles/roguelike_tests.dir/__/src/Level.cpp.obj tests/CMakeFiles/roguelike_tests.dir/__/src/Logger.cpp.obj tests/CMakeFiles/roguelike_tests.dir/__/src/ModLoader.cpp.obj tests/CMakeFiles/roguelike_tests.dir/__/src/Monster.cpp.obj tests/CMakeFiles/roguelike_tests.dir/__/src/Player.cpp.obj tests/CMakeFiles/roguelike_tests.dir/__/src/Room.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = tests\CMakeFiles\roguelike_tests.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = tests\CMakeFiles\roguelike_tests.dir\
+  TARGET_FILE = tests\roguelike_tests.exe
+  TARGET_IMPLIB = tests\libroguelike_tests.dll.a
+  TARGET_PDB = tests\roguelike_tests.pdb
+
+
+#############################################
+# Utility command for Experimental
+
+build tests/Experimental: phony tests/CMakeFiles/Experimental
+
+
+#############################################
+# Utility command for Nightly
+
+build tests/Nightly: phony tests/CMakeFiles/Nightly
+
+
+#############################################
+# Utility command for Continuous
+
+build tests/Continuous: phony tests/CMakeFiles/Continuous
+
+
+#############################################
+# Utility command for NightlyMemoryCheck
+
+build tests/NightlyMemoryCheck: phony tests/CMakeFiles/NightlyMemoryCheck
+
+
+#############################################
+# Utility command for NightlyStart
+
+build tests/NightlyStart: phony tests/CMakeFiles/NightlyStart
+
+
+#############################################
+# Utility command for NightlyUpdate
+
+build tests/NightlyUpdate: phony tests/CMakeFiles/NightlyUpdate
+
+
+#############################################
+# Utility command for NightlyConfigure
+
+build tests/NightlyConfigure: phony tests/CMakeFiles/NightlyConfigure
+
+
+#############################################
+# Utility command for NightlyBuild
+
+build tests/NightlyBuild: phony tests/CMakeFiles/NightlyBuild
+
+
+#############################################
+# Utility command for NightlyTest
+
+build tests/NightlyTest: phony tests/CMakeFiles/NightlyTest
+
+
+#############################################
+# Utility command for NightlyCoverage
+
+build tests/NightlyCoverage: phony tests/CMakeFiles/NightlyCoverage
+
+
+#############################################
+# Utility command for NightlyMemCheck
+
+build tests/NightlyMemCheck: phony tests/CMakeFiles/NightlyMemCheck
+
+
+#############################################
+# Utility command for NightlySubmit
+
+build tests/NightlySubmit: phony tests/CMakeFiles/NightlySubmit
+
+
+#############################################
+# Utility command for ExperimentalStart
+
+build tests/ExperimentalStart: phony tests/CMakeFiles/ExperimentalStart
+
+
+#############################################
+# Utility command for ExperimentalUpdate
+
+build tests/ExperimentalUpdate: phony tests/CMakeFiles/ExperimentalUpdate
+
+
+#############################################
+# Utility command for ExperimentalConfigure
+
+build tests/ExperimentalConfigure: phony tests/CMakeFiles/ExperimentalConfigure
+
+
+#############################################
+# Utility command for ExperimentalBuild
+
+build tests/ExperimentalBuild: phony tests/CMakeFiles/ExperimentalBuild
+
+
+#############################################
+# Utility command for ExperimentalTest
+
+build tests/ExperimentalTest: phony tests/CMakeFiles/ExperimentalTest
+
+
+#############################################
+# Utility command for ExperimentalCoverage
+
+build tests/ExperimentalCoverage: phony tests/CMakeFiles/ExperimentalCoverage
+
+
+#############################################
+# Utility command for ExperimentalMemCheck
+
+build tests/ExperimentalMemCheck: phony tests/CMakeFiles/ExperimentalMemCheck
+
+
+#############################################
+# Utility command for ExperimentalSubmit
+
+build tests/ExperimentalSubmit: phony tests/CMakeFiles/ExperimentalSubmit
+
+
+#############################################
+# Utility command for ContinuousStart
+
+build tests/ContinuousStart: phony tests/CMakeFiles/ContinuousStart
+
+
+#############################################
+# Utility command for ContinuousUpdate
+
+build tests/ContinuousUpdate: phony tests/CMakeFiles/ContinuousUpdate
+
+
+#############################################
+# Utility command for ContinuousConfigure
+
+build tests/ContinuousConfigure: phony tests/CMakeFiles/ContinuousConfigure
+
+
+#############################################
+# Utility command for ContinuousBuild
+
+build tests/ContinuousBuild: phony tests/CMakeFiles/ContinuousBuild
+
+
+#############################################
+# Utility command for ContinuousTest
+
+build tests/ContinuousTest: phony tests/CMakeFiles/ContinuousTest
+
+
+#############################################
+# Utility command for ContinuousCoverage
+
+build tests/ContinuousCoverage: phony tests/CMakeFiles/ContinuousCoverage
+
+
+#############################################
+# Utility command for ContinuousMemCheck
+
+build tests/ContinuousMemCheck: phony tests/CMakeFiles/ContinuousMemCheck
+
+
+#############################################
+# Utility command for ContinuousSubmit
+
+build tests/ContinuousSubmit: phony tests/CMakeFiles/ContinuousSubmit
+
+
+#############################################
+# Utility command for edit_cache
+
+build tests/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build tests/edit_cache: phony tests/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build tests/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -SD:\RoguelikeEngine -BD:\RoguelikeEngine\build"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build tests/rebuild_cache: phony tests/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Custom command for tests\CMakeFiles\Experimental
+
+build tests/CMakeFiles/Experimental | ${cmake_ninja_workdir}tests/CMakeFiles/Experimental: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Experimental -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\Nightly
+
+build tests/CMakeFiles/Nightly | ${cmake_ninja_workdir}tests/CMakeFiles/Nightly: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Nightly -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\Continuous
+
+build tests/CMakeFiles/Continuous | ${cmake_ninja_workdir}tests/CMakeFiles/Continuous: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Continuous -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\NightlyMemoryCheck
+
+build tests/CMakeFiles/NightlyMemoryCheck | ${cmake_ninja_workdir}tests/CMakeFiles/NightlyMemoryCheck: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=NightlyMemoryCheck -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\NightlyStart
+
+build tests/CMakeFiles/NightlyStart | ${cmake_ninja_workdir}tests/CMakeFiles/NightlyStart: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Nightly -DACTIONS=Start -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\NightlyUpdate
+
+build tests/CMakeFiles/NightlyUpdate | ${cmake_ninja_workdir}tests/CMakeFiles/NightlyUpdate: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Nightly -DACTIONS=Update -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\NightlyConfigure
+
+build tests/CMakeFiles/NightlyConfigure | ${cmake_ninja_workdir}tests/CMakeFiles/NightlyConfigure: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Nightly -DACTIONS=Configure -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\NightlyBuild
+
+build tests/CMakeFiles/NightlyBuild | ${cmake_ninja_workdir}tests/CMakeFiles/NightlyBuild: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Nightly -DACTIONS=Build -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\NightlyTest
+
+build tests/CMakeFiles/NightlyTest | ${cmake_ninja_workdir}tests/CMakeFiles/NightlyTest: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Nightly -DACTIONS=Test -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\NightlyCoverage
+
+build tests/CMakeFiles/NightlyCoverage | ${cmake_ninja_workdir}tests/CMakeFiles/NightlyCoverage: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Nightly -DACTIONS=Coverage -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\NightlyMemCheck
+
+build tests/CMakeFiles/NightlyMemCheck | ${cmake_ninja_workdir}tests/CMakeFiles/NightlyMemCheck: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Nightly -DACTIONS=MemCheck -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\NightlySubmit
+
+build tests/CMakeFiles/NightlySubmit | ${cmake_ninja_workdir}tests/CMakeFiles/NightlySubmit: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Nightly -DACTIONS=Submit -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\ExperimentalStart
+
+build tests/CMakeFiles/ExperimentalStart | ${cmake_ninja_workdir}tests/CMakeFiles/ExperimentalStart: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Experimental -DACTIONS=Start -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\ExperimentalUpdate
+
+build tests/CMakeFiles/ExperimentalUpdate | ${cmake_ninja_workdir}tests/CMakeFiles/ExperimentalUpdate: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Experimental -DACTIONS=Update -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\ExperimentalConfigure
+
+build tests/CMakeFiles/ExperimentalConfigure | ${cmake_ninja_workdir}tests/CMakeFiles/ExperimentalConfigure: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Experimental -DACTIONS=Configure -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\ExperimentalBuild
+
+build tests/CMakeFiles/ExperimentalBuild | ${cmake_ninja_workdir}tests/CMakeFiles/ExperimentalBuild: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Experimental -DACTIONS=Build -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\ExperimentalTest
+
+build tests/CMakeFiles/ExperimentalTest | ${cmake_ninja_workdir}tests/CMakeFiles/ExperimentalTest: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Experimental -DACTIONS=Test -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\ExperimentalCoverage
+
+build tests/CMakeFiles/ExperimentalCoverage | ${cmake_ninja_workdir}tests/CMakeFiles/ExperimentalCoverage: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Experimental -DACTIONS=Coverage -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\ExperimentalMemCheck
+
+build tests/CMakeFiles/ExperimentalMemCheck | ${cmake_ninja_workdir}tests/CMakeFiles/ExperimentalMemCheck: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Experimental -DACTIONS=MemCheck -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\ExperimentalSubmit
+
+build tests/CMakeFiles/ExperimentalSubmit | ${cmake_ninja_workdir}tests/CMakeFiles/ExperimentalSubmit: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Experimental -DACTIONS=Submit -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\ContinuousStart
+
+build tests/CMakeFiles/ContinuousStart | ${cmake_ninja_workdir}tests/CMakeFiles/ContinuousStart: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Continuous -DACTIONS=Start -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\ContinuousUpdate
+
+build tests/CMakeFiles/ContinuousUpdate | ${cmake_ninja_workdir}tests/CMakeFiles/ContinuousUpdate: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Continuous -DACTIONS=Update -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\ContinuousConfigure
+
+build tests/CMakeFiles/ContinuousConfigure | ${cmake_ninja_workdir}tests/CMakeFiles/ContinuousConfigure: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Continuous -DACTIONS=Configure -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\ContinuousBuild
+
+build tests/CMakeFiles/ContinuousBuild | ${cmake_ninja_workdir}tests/CMakeFiles/ContinuousBuild: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Continuous -DACTIONS=Build -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\ContinuousTest
+
+build tests/CMakeFiles/ContinuousTest | ${cmake_ninja_workdir}tests/CMakeFiles/ContinuousTest: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Continuous -DACTIONS=Test -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\ContinuousCoverage
+
+build tests/CMakeFiles/ContinuousCoverage | ${cmake_ninja_workdir}tests/CMakeFiles/ContinuousCoverage: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Continuous -DACTIONS=Coverage -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\ContinuousMemCheck
+
+build tests/CMakeFiles/ContinuousMemCheck | ${cmake_ninja_workdir}tests/CMakeFiles/ContinuousMemCheck: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Continuous -DACTIONS=MemCheck -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+
+#############################################
+# Custom command for tests\CMakeFiles\ContinuousSubmit
+
+build tests/CMakeFiles/ContinuousSubmit | ${cmake_ninja_workdir}tests/CMakeFiles/ContinuousSubmit: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\tests && C:\msys64\mingw64\bin\ctest.exe -DMODEL=Continuous -DACTIONS=Submit -S CMakeFiles/CTestScript.cmake -V"
+  pool = console
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/RoguelikeEngine/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target scenario_10_clear_level
+
+
+#############################################
+# Order-only phony target for scenario_10_clear_level
+
+build cmake_object_order_depends_target_scenario_10_clear_level: phony || .
+
+build scenarios/CMakeFiles/scenario_10_clear_level.dir/scenario_10_clear_level.cpp.obj: CXX_COMPILER__scenario_10_clear_level_unscanned_ D$:/RoguelikeEngine/scenarios/scenario_10_clear_level.cpp || cmake_object_order_depends_target_scenario_10_clear_level
+  DEP_FILE = scenarios\CMakeFiles\scenario_10_clear_level.dir\scenario_10_clear_level.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_10_clear_level.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_10_clear_level.dir
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_10_clear_level.dir\
+  TARGET_PDB = scenarios\scenario_10_clear_level.pdb
+
+build scenarios/CMakeFiles/scenario_10_clear_level.dir/__/src/GameEngine.cpp.obj: CXX_COMPILER__scenario_10_clear_level_unscanned_ D$:/RoguelikeEngine/src/GameEngine.cpp || cmake_object_order_depends_target_scenario_10_clear_level
+  DEP_FILE = scenarios\CMakeFiles\scenario_10_clear_level.dir\__\src\GameEngine.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_10_clear_level.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_10_clear_level.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_10_clear_level.dir\
+  TARGET_PDB = scenarios\scenario_10_clear_level.pdb
+
+build scenarios/CMakeFiles/scenario_10_clear_level.dir/__/src/Item.cpp.obj: CXX_COMPILER__scenario_10_clear_level_unscanned_ D$:/RoguelikeEngine/src/Item.cpp || cmake_object_order_depends_target_scenario_10_clear_level
+  DEP_FILE = scenarios\CMakeFiles\scenario_10_clear_level.dir\__\src\Item.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_10_clear_level.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_10_clear_level.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_10_clear_level.dir\
+  TARGET_PDB = scenarios\scenario_10_clear_level.pdb
+
+build scenarios/CMakeFiles/scenario_10_clear_level.dir/__/src/Level.cpp.obj: CXX_COMPILER__scenario_10_clear_level_unscanned_ D$:/RoguelikeEngine/src/Level.cpp || cmake_object_order_depends_target_scenario_10_clear_level
+  DEP_FILE = scenarios\CMakeFiles\scenario_10_clear_level.dir\__\src\Level.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_10_clear_level.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_10_clear_level.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_10_clear_level.dir\
+  TARGET_PDB = scenarios\scenario_10_clear_level.pdb
+
+build scenarios/CMakeFiles/scenario_10_clear_level.dir/__/src/Logger.cpp.obj: CXX_COMPILER__scenario_10_clear_level_unscanned_ D$:/RoguelikeEngine/src/Logger.cpp || cmake_object_order_depends_target_scenario_10_clear_level
+  DEP_FILE = scenarios\CMakeFiles\scenario_10_clear_level.dir\__\src\Logger.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_10_clear_level.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_10_clear_level.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_10_clear_level.dir\
+  TARGET_PDB = scenarios\scenario_10_clear_level.pdb
+
+build scenarios/CMakeFiles/scenario_10_clear_level.dir/__/src/ModLoader.cpp.obj: CXX_COMPILER__scenario_10_clear_level_unscanned_ D$:/RoguelikeEngine/src/ModLoader.cpp || cmake_object_order_depends_target_scenario_10_clear_level
+  DEP_FILE = scenarios\CMakeFiles\scenario_10_clear_level.dir\__\src\ModLoader.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_10_clear_level.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_10_clear_level.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_10_clear_level.dir\
+  TARGET_PDB = scenarios\scenario_10_clear_level.pdb
+
+build scenarios/CMakeFiles/scenario_10_clear_level.dir/__/src/Monster.cpp.obj: CXX_COMPILER__scenario_10_clear_level_unscanned_ D$:/RoguelikeEngine/src/Monster.cpp || cmake_object_order_depends_target_scenario_10_clear_level
+  DEP_FILE = scenarios\CMakeFiles\scenario_10_clear_level.dir\__\src\Monster.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_10_clear_level.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_10_clear_level.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_10_clear_level.dir\
+  TARGET_PDB = scenarios\scenario_10_clear_level.pdb
+
+build scenarios/CMakeFiles/scenario_10_clear_level.dir/__/src/Player.cpp.obj: CXX_COMPILER__scenario_10_clear_level_unscanned_ D$:/RoguelikeEngine/src/Player.cpp || cmake_object_order_depends_target_scenario_10_clear_level
+  DEP_FILE = scenarios\CMakeFiles\scenario_10_clear_level.dir\__\src\Player.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_10_clear_level.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_10_clear_level.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_10_clear_level.dir\
+  TARGET_PDB = scenarios\scenario_10_clear_level.pdb
+
+build scenarios/CMakeFiles/scenario_10_clear_level.dir/__/src/Room.cpp.obj: CXX_COMPILER__scenario_10_clear_level_unscanned_ D$:/RoguelikeEngine/src/Room.cpp || cmake_object_order_depends_target_scenario_10_clear_level
+  DEP_FILE = scenarios\CMakeFiles\scenario_10_clear_level.dir\__\src\Room.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_10_clear_level.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_10_clear_level.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_10_clear_level.dir\
+  TARGET_PDB = scenarios\scenario_10_clear_level.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scenario_10_clear_level
+
+
+#############################################
+# Link the executable scenarios\scenario_10_clear_level.exe
+
+build scenarios/scenario_10_clear_level.exe: CXX_EXECUTABLE_LINKER__scenario_10_clear_level_ scenarios/CMakeFiles/scenario_10_clear_level.dir/scenario_10_clear_level.cpp.obj scenarios/CMakeFiles/scenario_10_clear_level.dir/__/src/GameEngine.cpp.obj scenarios/CMakeFiles/scenario_10_clear_level.dir/__/src/Item.cpp.obj scenarios/CMakeFiles/scenario_10_clear_level.dir/__/src/Level.cpp.obj scenarios/CMakeFiles/scenario_10_clear_level.dir/__/src/Logger.cpp.obj scenarios/CMakeFiles/scenario_10_clear_level.dir/__/src/ModLoader.cpp.obj scenarios/CMakeFiles/scenario_10_clear_level.dir/__/src/Monster.cpp.obj scenarios/CMakeFiles/scenario_10_clear_level.dir/__/src/Player.cpp.obj scenarios/CMakeFiles/scenario_10_clear_level.dir/__/src/Room.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_10_clear_level.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_10_clear_level.dir\
+  TARGET_FILE = scenarios\scenario_10_clear_level.exe
+  TARGET_IMPLIB = scenarios\libscenario_10_clear_level.dll.a
+  TARGET_PDB = scenarios\scenario_10_clear_level.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target scenario_11_boss_fight
+
+
+#############################################
+# Order-only phony target for scenario_11_boss_fight
+
+build cmake_object_order_depends_target_scenario_11_boss_fight: phony || .
+
+build scenarios/CMakeFiles/scenario_11_boss_fight.dir/scenario_11_boss_fight.cpp.obj: CXX_COMPILER__scenario_11_boss_fight_unscanned_ D$:/RoguelikeEngine/scenarios/scenario_11_boss_fight.cpp || cmake_object_order_depends_target_scenario_11_boss_fight
+  DEP_FILE = scenarios\CMakeFiles\scenario_11_boss_fight.dir\scenario_11_boss_fight.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_11_boss_fight.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_11_boss_fight.dir
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_11_boss_fight.dir\
+  TARGET_PDB = scenarios\scenario_11_boss_fight.pdb
+
+build scenarios/CMakeFiles/scenario_11_boss_fight.dir/__/src/GameEngine.cpp.obj: CXX_COMPILER__scenario_11_boss_fight_unscanned_ D$:/RoguelikeEngine/src/GameEngine.cpp || cmake_object_order_depends_target_scenario_11_boss_fight
+  DEP_FILE = scenarios\CMakeFiles\scenario_11_boss_fight.dir\__\src\GameEngine.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_11_boss_fight.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_11_boss_fight.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_11_boss_fight.dir\
+  TARGET_PDB = scenarios\scenario_11_boss_fight.pdb
+
+build scenarios/CMakeFiles/scenario_11_boss_fight.dir/__/src/Item.cpp.obj: CXX_COMPILER__scenario_11_boss_fight_unscanned_ D$:/RoguelikeEngine/src/Item.cpp || cmake_object_order_depends_target_scenario_11_boss_fight
+  DEP_FILE = scenarios\CMakeFiles\scenario_11_boss_fight.dir\__\src\Item.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_11_boss_fight.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_11_boss_fight.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_11_boss_fight.dir\
+  TARGET_PDB = scenarios\scenario_11_boss_fight.pdb
+
+build scenarios/CMakeFiles/scenario_11_boss_fight.dir/__/src/Level.cpp.obj: CXX_COMPILER__scenario_11_boss_fight_unscanned_ D$:/RoguelikeEngine/src/Level.cpp || cmake_object_order_depends_target_scenario_11_boss_fight
+  DEP_FILE = scenarios\CMakeFiles\scenario_11_boss_fight.dir\__\src\Level.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_11_boss_fight.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_11_boss_fight.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_11_boss_fight.dir\
+  TARGET_PDB = scenarios\scenario_11_boss_fight.pdb
+
+build scenarios/CMakeFiles/scenario_11_boss_fight.dir/__/src/Logger.cpp.obj: CXX_COMPILER__scenario_11_boss_fight_unscanned_ D$:/RoguelikeEngine/src/Logger.cpp || cmake_object_order_depends_target_scenario_11_boss_fight
+  DEP_FILE = scenarios\CMakeFiles\scenario_11_boss_fight.dir\__\src\Logger.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_11_boss_fight.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_11_boss_fight.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_11_boss_fight.dir\
+  TARGET_PDB = scenarios\scenario_11_boss_fight.pdb
+
+build scenarios/CMakeFiles/scenario_11_boss_fight.dir/__/src/ModLoader.cpp.obj: CXX_COMPILER__scenario_11_boss_fight_unscanned_ D$:/RoguelikeEngine/src/ModLoader.cpp || cmake_object_order_depends_target_scenario_11_boss_fight
+  DEP_FILE = scenarios\CMakeFiles\scenario_11_boss_fight.dir\__\src\ModLoader.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_11_boss_fight.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_11_boss_fight.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_11_boss_fight.dir\
+  TARGET_PDB = scenarios\scenario_11_boss_fight.pdb
+
+build scenarios/CMakeFiles/scenario_11_boss_fight.dir/__/src/Monster.cpp.obj: CXX_COMPILER__scenario_11_boss_fight_unscanned_ D$:/RoguelikeEngine/src/Monster.cpp || cmake_object_order_depends_target_scenario_11_boss_fight
+  DEP_FILE = scenarios\CMakeFiles\scenario_11_boss_fight.dir\__\src\Monster.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_11_boss_fight.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_11_boss_fight.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_11_boss_fight.dir\
+  TARGET_PDB = scenarios\scenario_11_boss_fight.pdb
+
+build scenarios/CMakeFiles/scenario_11_boss_fight.dir/__/src/Player.cpp.obj: CXX_COMPILER__scenario_11_boss_fight_unscanned_ D$:/RoguelikeEngine/src/Player.cpp || cmake_object_order_depends_target_scenario_11_boss_fight
+  DEP_FILE = scenarios\CMakeFiles\scenario_11_boss_fight.dir\__\src\Player.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_11_boss_fight.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_11_boss_fight.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_11_boss_fight.dir\
+  TARGET_PDB = scenarios\scenario_11_boss_fight.pdb
+
+build scenarios/CMakeFiles/scenario_11_boss_fight.dir/__/src/Room.cpp.obj: CXX_COMPILER__scenario_11_boss_fight_unscanned_ D$:/RoguelikeEngine/src/Room.cpp || cmake_object_order_depends_target_scenario_11_boss_fight
+  DEP_FILE = scenarios\CMakeFiles\scenario_11_boss_fight.dir\__\src\Room.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_11_boss_fight.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_11_boss_fight.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_11_boss_fight.dir\
+  TARGET_PDB = scenarios\scenario_11_boss_fight.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scenario_11_boss_fight
+
+
+#############################################
+# Link the executable scenarios\scenario_11_boss_fight.exe
+
+build scenarios/scenario_11_boss_fight.exe: CXX_EXECUTABLE_LINKER__scenario_11_boss_fight_ scenarios/CMakeFiles/scenario_11_boss_fight.dir/scenario_11_boss_fight.cpp.obj scenarios/CMakeFiles/scenario_11_boss_fight.dir/__/src/GameEngine.cpp.obj scenarios/CMakeFiles/scenario_11_boss_fight.dir/__/src/Item.cpp.obj scenarios/CMakeFiles/scenario_11_boss_fight.dir/__/src/Level.cpp.obj scenarios/CMakeFiles/scenario_11_boss_fight.dir/__/src/Logger.cpp.obj scenarios/CMakeFiles/scenario_11_boss_fight.dir/__/src/ModLoader.cpp.obj scenarios/CMakeFiles/scenario_11_boss_fight.dir/__/src/Monster.cpp.obj scenarios/CMakeFiles/scenario_11_boss_fight.dir/__/src/Player.cpp.obj scenarios/CMakeFiles/scenario_11_boss_fight.dir/__/src/Room.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_11_boss_fight.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_11_boss_fight.dir\
+  TARGET_FILE = scenarios\scenario_11_boss_fight.exe
+  TARGET_IMPLIB = scenarios\libscenario_11_boss_fight.dll.a
+  TARGET_PDB = scenarios\scenario_11_boss_fight.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target scenario_12_mod_loading
+
+
+#############################################
+# Order-only phony target for scenario_12_mod_loading
+
+build cmake_object_order_depends_target_scenario_12_mod_loading: phony || .
+
+build scenarios/CMakeFiles/scenario_12_mod_loading.dir/scenario_12_mod_loading.cpp.obj: CXX_COMPILER__scenario_12_mod_loading_unscanned_ D$:/RoguelikeEngine/scenarios/scenario_12_mod_loading.cpp || cmake_object_order_depends_target_scenario_12_mod_loading
+  DEP_FILE = scenarios\CMakeFiles\scenario_12_mod_loading.dir\scenario_12_mod_loading.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_12_mod_loading.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_12_mod_loading.dir
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_12_mod_loading.dir\
+  TARGET_PDB = scenarios\scenario_12_mod_loading.pdb
+
+build scenarios/CMakeFiles/scenario_12_mod_loading.dir/__/src/GameEngine.cpp.obj: CXX_COMPILER__scenario_12_mod_loading_unscanned_ D$:/RoguelikeEngine/src/GameEngine.cpp || cmake_object_order_depends_target_scenario_12_mod_loading
+  DEP_FILE = scenarios\CMakeFiles\scenario_12_mod_loading.dir\__\src\GameEngine.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_12_mod_loading.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_12_mod_loading.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_12_mod_loading.dir\
+  TARGET_PDB = scenarios\scenario_12_mod_loading.pdb
+
+build scenarios/CMakeFiles/scenario_12_mod_loading.dir/__/src/Item.cpp.obj: CXX_COMPILER__scenario_12_mod_loading_unscanned_ D$:/RoguelikeEngine/src/Item.cpp || cmake_object_order_depends_target_scenario_12_mod_loading
+  DEP_FILE = scenarios\CMakeFiles\scenario_12_mod_loading.dir\__\src\Item.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_12_mod_loading.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_12_mod_loading.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_12_mod_loading.dir\
+  TARGET_PDB = scenarios\scenario_12_mod_loading.pdb
+
+build scenarios/CMakeFiles/scenario_12_mod_loading.dir/__/src/Level.cpp.obj: CXX_COMPILER__scenario_12_mod_loading_unscanned_ D$:/RoguelikeEngine/src/Level.cpp || cmake_object_order_depends_target_scenario_12_mod_loading
+  DEP_FILE = scenarios\CMakeFiles\scenario_12_mod_loading.dir\__\src\Level.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_12_mod_loading.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_12_mod_loading.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_12_mod_loading.dir\
+  TARGET_PDB = scenarios\scenario_12_mod_loading.pdb
+
+build scenarios/CMakeFiles/scenario_12_mod_loading.dir/__/src/Logger.cpp.obj: CXX_COMPILER__scenario_12_mod_loading_unscanned_ D$:/RoguelikeEngine/src/Logger.cpp || cmake_object_order_depends_target_scenario_12_mod_loading
+  DEP_FILE = scenarios\CMakeFiles\scenario_12_mod_loading.dir\__\src\Logger.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_12_mod_loading.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_12_mod_loading.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_12_mod_loading.dir\
+  TARGET_PDB = scenarios\scenario_12_mod_loading.pdb
+
+build scenarios/CMakeFiles/scenario_12_mod_loading.dir/__/src/ModLoader.cpp.obj: CXX_COMPILER__scenario_12_mod_loading_unscanned_ D$:/RoguelikeEngine/src/ModLoader.cpp || cmake_object_order_depends_target_scenario_12_mod_loading
+  DEP_FILE = scenarios\CMakeFiles\scenario_12_mod_loading.dir\__\src\ModLoader.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_12_mod_loading.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_12_mod_loading.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_12_mod_loading.dir\
+  TARGET_PDB = scenarios\scenario_12_mod_loading.pdb
+
+build scenarios/CMakeFiles/scenario_12_mod_loading.dir/__/src/Monster.cpp.obj: CXX_COMPILER__scenario_12_mod_loading_unscanned_ D$:/RoguelikeEngine/src/Monster.cpp || cmake_object_order_depends_target_scenario_12_mod_loading
+  DEP_FILE = scenarios\CMakeFiles\scenario_12_mod_loading.dir\__\src\Monster.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_12_mod_loading.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_12_mod_loading.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_12_mod_loading.dir\
+  TARGET_PDB = scenarios\scenario_12_mod_loading.pdb
+
+build scenarios/CMakeFiles/scenario_12_mod_loading.dir/__/src/Player.cpp.obj: CXX_COMPILER__scenario_12_mod_loading_unscanned_ D$:/RoguelikeEngine/src/Player.cpp || cmake_object_order_depends_target_scenario_12_mod_loading
+  DEP_FILE = scenarios\CMakeFiles\scenario_12_mod_loading.dir\__\src\Player.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_12_mod_loading.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_12_mod_loading.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_12_mod_loading.dir\
+  TARGET_PDB = scenarios\scenario_12_mod_loading.pdb
+
+build scenarios/CMakeFiles/scenario_12_mod_loading.dir/__/src/Room.cpp.obj: CXX_COMPILER__scenario_12_mod_loading_unscanned_ D$:/RoguelikeEngine/src/Room.cpp || cmake_object_order_depends_target_scenario_12_mod_loading
+  DEP_FILE = scenarios\CMakeFiles\scenario_12_mod_loading.dir\__\src\Room.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_12_mod_loading.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_12_mod_loading.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_12_mod_loading.dir\
+  TARGET_PDB = scenarios\scenario_12_mod_loading.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scenario_12_mod_loading
+
+
+#############################################
+# Link the executable scenarios\scenario_12_mod_loading.exe
+
+build scenarios/scenario_12_mod_loading.exe: CXX_EXECUTABLE_LINKER__scenario_12_mod_loading_ scenarios/CMakeFiles/scenario_12_mod_loading.dir/scenario_12_mod_loading.cpp.obj scenarios/CMakeFiles/scenario_12_mod_loading.dir/__/src/GameEngine.cpp.obj scenarios/CMakeFiles/scenario_12_mod_loading.dir/__/src/Item.cpp.obj scenarios/CMakeFiles/scenario_12_mod_loading.dir/__/src/Level.cpp.obj scenarios/CMakeFiles/scenario_12_mod_loading.dir/__/src/Logger.cpp.obj scenarios/CMakeFiles/scenario_12_mod_loading.dir/__/src/ModLoader.cpp.obj scenarios/CMakeFiles/scenario_12_mod_loading.dir/__/src/Monster.cpp.obj scenarios/CMakeFiles/scenario_12_mod_loading.dir/__/src/Player.cpp.obj scenarios/CMakeFiles/scenario_12_mod_loading.dir/__/src/Room.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_12_mod_loading.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_12_mod_loading.dir\
+  TARGET_FILE = scenarios\scenario_12_mod_loading.exe
+  TARGET_IMPLIB = scenarios\libscenario_12_mod_loading.dll.a
+  TARGET_PDB = scenarios\scenario_12_mod_loading.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target scenario_13_use_armor
+
+
+#############################################
+# Order-only phony target for scenario_13_use_armor
+
+build cmake_object_order_depends_target_scenario_13_use_armor: phony || .
+
+build scenarios/CMakeFiles/scenario_13_use_armor.dir/scenario_13_use_armor.cpp.obj: CXX_COMPILER__scenario_13_use_armor_unscanned_ D$:/RoguelikeEngine/scenarios/scenario_13_use_armor.cpp || cmake_object_order_depends_target_scenario_13_use_armor
+  DEP_FILE = scenarios\CMakeFiles\scenario_13_use_armor.dir\scenario_13_use_armor.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_13_use_armor.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_13_use_armor.dir
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_13_use_armor.dir\
+  TARGET_PDB = scenarios\scenario_13_use_armor.pdb
+
+build scenarios/CMakeFiles/scenario_13_use_armor.dir/__/src/GameEngine.cpp.obj: CXX_COMPILER__scenario_13_use_armor_unscanned_ D$:/RoguelikeEngine/src/GameEngine.cpp || cmake_object_order_depends_target_scenario_13_use_armor
+  DEP_FILE = scenarios\CMakeFiles\scenario_13_use_armor.dir\__\src\GameEngine.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_13_use_armor.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_13_use_armor.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_13_use_armor.dir\
+  TARGET_PDB = scenarios\scenario_13_use_armor.pdb
+
+build scenarios/CMakeFiles/scenario_13_use_armor.dir/__/src/Item.cpp.obj: CXX_COMPILER__scenario_13_use_armor_unscanned_ D$:/RoguelikeEngine/src/Item.cpp || cmake_object_order_depends_target_scenario_13_use_armor
+  DEP_FILE = scenarios\CMakeFiles\scenario_13_use_armor.dir\__\src\Item.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_13_use_armor.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_13_use_armor.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_13_use_armor.dir\
+  TARGET_PDB = scenarios\scenario_13_use_armor.pdb
+
+build scenarios/CMakeFiles/scenario_13_use_armor.dir/__/src/Level.cpp.obj: CXX_COMPILER__scenario_13_use_armor_unscanned_ D$:/RoguelikeEngine/src/Level.cpp || cmake_object_order_depends_target_scenario_13_use_armor
+  DEP_FILE = scenarios\CMakeFiles\scenario_13_use_armor.dir\__\src\Level.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_13_use_armor.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_13_use_armor.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_13_use_armor.dir\
+  TARGET_PDB = scenarios\scenario_13_use_armor.pdb
+
+build scenarios/CMakeFiles/scenario_13_use_armor.dir/__/src/Logger.cpp.obj: CXX_COMPILER__scenario_13_use_armor_unscanned_ D$:/RoguelikeEngine/src/Logger.cpp || cmake_object_order_depends_target_scenario_13_use_armor
+  DEP_FILE = scenarios\CMakeFiles\scenario_13_use_armor.dir\__\src\Logger.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_13_use_armor.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_13_use_armor.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_13_use_armor.dir\
+  TARGET_PDB = scenarios\scenario_13_use_armor.pdb
+
+build scenarios/CMakeFiles/scenario_13_use_armor.dir/__/src/ModLoader.cpp.obj: CXX_COMPILER__scenario_13_use_armor_unscanned_ D$:/RoguelikeEngine/src/ModLoader.cpp || cmake_object_order_depends_target_scenario_13_use_armor
+  DEP_FILE = scenarios\CMakeFiles\scenario_13_use_armor.dir\__\src\ModLoader.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_13_use_armor.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_13_use_armor.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_13_use_armor.dir\
+  TARGET_PDB = scenarios\scenario_13_use_armor.pdb
+
+build scenarios/CMakeFiles/scenario_13_use_armor.dir/__/src/Monster.cpp.obj: CXX_COMPILER__scenario_13_use_armor_unscanned_ D$:/RoguelikeEngine/src/Monster.cpp || cmake_object_order_depends_target_scenario_13_use_armor
+  DEP_FILE = scenarios\CMakeFiles\scenario_13_use_armor.dir\__\src\Monster.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_13_use_armor.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_13_use_armor.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_13_use_armor.dir\
+  TARGET_PDB = scenarios\scenario_13_use_armor.pdb
+
+build scenarios/CMakeFiles/scenario_13_use_armor.dir/__/src/Player.cpp.obj: CXX_COMPILER__scenario_13_use_armor_unscanned_ D$:/RoguelikeEngine/src/Player.cpp || cmake_object_order_depends_target_scenario_13_use_armor
+  DEP_FILE = scenarios\CMakeFiles\scenario_13_use_armor.dir\__\src\Player.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_13_use_armor.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_13_use_armor.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_13_use_armor.dir\
+  TARGET_PDB = scenarios\scenario_13_use_armor.pdb
+
+build scenarios/CMakeFiles/scenario_13_use_armor.dir/__/src/Room.cpp.obj: CXX_COMPILER__scenario_13_use_armor_unscanned_ D$:/RoguelikeEngine/src/Room.cpp || cmake_object_order_depends_target_scenario_13_use_armor
+  DEP_FILE = scenarios\CMakeFiles\scenario_13_use_armor.dir\__\src\Room.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_13_use_armor.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_13_use_armor.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_13_use_armor.dir\
+  TARGET_PDB = scenarios\scenario_13_use_armor.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scenario_13_use_armor
+
+
+#############################################
+# Link the executable scenarios\scenario_13_use_armor.exe
+
+build scenarios/scenario_13_use_armor.exe: CXX_EXECUTABLE_LINKER__scenario_13_use_armor_ scenarios/CMakeFiles/scenario_13_use_armor.dir/scenario_13_use_armor.cpp.obj scenarios/CMakeFiles/scenario_13_use_armor.dir/__/src/GameEngine.cpp.obj scenarios/CMakeFiles/scenario_13_use_armor.dir/__/src/Item.cpp.obj scenarios/CMakeFiles/scenario_13_use_armor.dir/__/src/Level.cpp.obj scenarios/CMakeFiles/scenario_13_use_armor.dir/__/src/Logger.cpp.obj scenarios/CMakeFiles/scenario_13_use_armor.dir/__/src/ModLoader.cpp.obj scenarios/CMakeFiles/scenario_13_use_armor.dir/__/src/Monster.cpp.obj scenarios/CMakeFiles/scenario_13_use_armor.dir/__/src/Player.cpp.obj scenarios/CMakeFiles/scenario_13_use_armor.dir/__/src/Room.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_13_use_armor.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_13_use_armor.dir\
+  TARGET_FILE = scenarios\scenario_13_use_armor.exe
+  TARGET_IMPLIB = scenarios\libscenario_13_use_armor.dll.a
+  TARGET_PDB = scenarios\scenario_13_use_armor.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target scenario_1_game_start
+
+
+#############################################
+# Order-only phony target for scenario_1_game_start
+
+build cmake_object_order_depends_target_scenario_1_game_start: phony || .
+
+build scenarios/CMakeFiles/scenario_1_game_start.dir/scenario_1_game_start.cpp.obj: CXX_COMPILER__scenario_1_game_start_unscanned_ D$:/RoguelikeEngine/scenarios/scenario_1_game_start.cpp || cmake_object_order_depends_target_scenario_1_game_start
+  DEP_FILE = scenarios\CMakeFiles\scenario_1_game_start.dir\scenario_1_game_start.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_1_game_start.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_1_game_start.dir
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_1_game_start.dir\
+  TARGET_PDB = scenarios\scenario_1_game_start.pdb
+
+build scenarios/CMakeFiles/scenario_1_game_start.dir/__/src/GameEngine.cpp.obj: CXX_COMPILER__scenario_1_game_start_unscanned_ D$:/RoguelikeEngine/src/GameEngine.cpp || cmake_object_order_depends_target_scenario_1_game_start
+  DEP_FILE = scenarios\CMakeFiles\scenario_1_game_start.dir\__\src\GameEngine.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_1_game_start.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_1_game_start.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_1_game_start.dir\
+  TARGET_PDB = scenarios\scenario_1_game_start.pdb
+
+build scenarios/CMakeFiles/scenario_1_game_start.dir/__/src/Item.cpp.obj: CXX_COMPILER__scenario_1_game_start_unscanned_ D$:/RoguelikeEngine/src/Item.cpp || cmake_object_order_depends_target_scenario_1_game_start
+  DEP_FILE = scenarios\CMakeFiles\scenario_1_game_start.dir\__\src\Item.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_1_game_start.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_1_game_start.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_1_game_start.dir\
+  TARGET_PDB = scenarios\scenario_1_game_start.pdb
+
+build scenarios/CMakeFiles/scenario_1_game_start.dir/__/src/Level.cpp.obj: CXX_COMPILER__scenario_1_game_start_unscanned_ D$:/RoguelikeEngine/src/Level.cpp || cmake_object_order_depends_target_scenario_1_game_start
+  DEP_FILE = scenarios\CMakeFiles\scenario_1_game_start.dir\__\src\Level.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_1_game_start.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_1_game_start.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_1_game_start.dir\
+  TARGET_PDB = scenarios\scenario_1_game_start.pdb
+
+build scenarios/CMakeFiles/scenario_1_game_start.dir/__/src/Logger.cpp.obj: CXX_COMPILER__scenario_1_game_start_unscanned_ D$:/RoguelikeEngine/src/Logger.cpp || cmake_object_order_depends_target_scenario_1_game_start
+  DEP_FILE = scenarios\CMakeFiles\scenario_1_game_start.dir\__\src\Logger.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_1_game_start.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_1_game_start.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_1_game_start.dir\
+  TARGET_PDB = scenarios\scenario_1_game_start.pdb
+
+build scenarios/CMakeFiles/scenario_1_game_start.dir/__/src/ModLoader.cpp.obj: CXX_COMPILER__scenario_1_game_start_unscanned_ D$:/RoguelikeEngine/src/ModLoader.cpp || cmake_object_order_depends_target_scenario_1_game_start
+  DEP_FILE = scenarios\CMakeFiles\scenario_1_game_start.dir\__\src\ModLoader.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_1_game_start.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_1_game_start.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_1_game_start.dir\
+  TARGET_PDB = scenarios\scenario_1_game_start.pdb
+
+build scenarios/CMakeFiles/scenario_1_game_start.dir/__/src/Monster.cpp.obj: CXX_COMPILER__scenario_1_game_start_unscanned_ D$:/RoguelikeEngine/src/Monster.cpp || cmake_object_order_depends_target_scenario_1_game_start
+  DEP_FILE = scenarios\CMakeFiles\scenario_1_game_start.dir\__\src\Monster.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_1_game_start.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_1_game_start.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_1_game_start.dir\
+  TARGET_PDB = scenarios\scenario_1_game_start.pdb
+
+build scenarios/CMakeFiles/scenario_1_game_start.dir/__/src/Player.cpp.obj: CXX_COMPILER__scenario_1_game_start_unscanned_ D$:/RoguelikeEngine/src/Player.cpp || cmake_object_order_depends_target_scenario_1_game_start
+  DEP_FILE = scenarios\CMakeFiles\scenario_1_game_start.dir\__\src\Player.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_1_game_start.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_1_game_start.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_1_game_start.dir\
+  TARGET_PDB = scenarios\scenario_1_game_start.pdb
+
+build scenarios/CMakeFiles/scenario_1_game_start.dir/__/src/Room.cpp.obj: CXX_COMPILER__scenario_1_game_start_unscanned_ D$:/RoguelikeEngine/src/Room.cpp || cmake_object_order_depends_target_scenario_1_game_start
+  DEP_FILE = scenarios\CMakeFiles\scenario_1_game_start.dir\__\src\Room.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_1_game_start.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_1_game_start.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_1_game_start.dir\
+  TARGET_PDB = scenarios\scenario_1_game_start.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scenario_1_game_start
+
+
+#############################################
+# Link the executable scenarios\scenario_1_game_start.exe
+
+build scenarios/scenario_1_game_start.exe: CXX_EXECUTABLE_LINKER__scenario_1_game_start_ scenarios/CMakeFiles/scenario_1_game_start.dir/scenario_1_game_start.cpp.obj scenarios/CMakeFiles/scenario_1_game_start.dir/__/src/GameEngine.cpp.obj scenarios/CMakeFiles/scenario_1_game_start.dir/__/src/Item.cpp.obj scenarios/CMakeFiles/scenario_1_game_start.dir/__/src/Level.cpp.obj scenarios/CMakeFiles/scenario_1_game_start.dir/__/src/Logger.cpp.obj scenarios/CMakeFiles/scenario_1_game_start.dir/__/src/ModLoader.cpp.obj scenarios/CMakeFiles/scenario_1_game_start.dir/__/src/Monster.cpp.obj scenarios/CMakeFiles/scenario_1_game_start.dir/__/src/Player.cpp.obj scenarios/CMakeFiles/scenario_1_game_start.dir/__/src/Room.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_1_game_start.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_1_game_start.dir\
+  TARGET_FILE = scenarios\scenario_1_game_start.exe
+  TARGET_IMPLIB = scenarios\libscenario_1_game_start.dll.a
+  TARGET_PDB = scenarios\scenario_1_game_start.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target scenario_2_level_generation
+
+
+#############################################
+# Order-only phony target for scenario_2_level_generation
+
+build cmake_object_order_depends_target_scenario_2_level_generation: phony || .
+
+build scenarios/CMakeFiles/scenario_2_level_generation.dir/scenario_2_level_generation.cpp.obj: CXX_COMPILER__scenario_2_level_generation_unscanned_ D$:/RoguelikeEngine/scenarios/scenario_2_level_generation.cpp || cmake_object_order_depends_target_scenario_2_level_generation
+  DEP_FILE = scenarios\CMakeFiles\scenario_2_level_generation.dir\scenario_2_level_generation.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_2_level_generation.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_2_level_generation.dir
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_2_level_generation.dir\
+  TARGET_PDB = scenarios\scenario_2_level_generation.pdb
+
+build scenarios/CMakeFiles/scenario_2_level_generation.dir/__/src/GameEngine.cpp.obj: CXX_COMPILER__scenario_2_level_generation_unscanned_ D$:/RoguelikeEngine/src/GameEngine.cpp || cmake_object_order_depends_target_scenario_2_level_generation
+  DEP_FILE = scenarios\CMakeFiles\scenario_2_level_generation.dir\__\src\GameEngine.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_2_level_generation.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_2_level_generation.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_2_level_generation.dir\
+  TARGET_PDB = scenarios\scenario_2_level_generation.pdb
+
+build scenarios/CMakeFiles/scenario_2_level_generation.dir/__/src/Item.cpp.obj: CXX_COMPILER__scenario_2_level_generation_unscanned_ D$:/RoguelikeEngine/src/Item.cpp || cmake_object_order_depends_target_scenario_2_level_generation
+  DEP_FILE = scenarios\CMakeFiles\scenario_2_level_generation.dir\__\src\Item.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_2_level_generation.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_2_level_generation.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_2_level_generation.dir\
+  TARGET_PDB = scenarios\scenario_2_level_generation.pdb
+
+build scenarios/CMakeFiles/scenario_2_level_generation.dir/__/src/Level.cpp.obj: CXX_COMPILER__scenario_2_level_generation_unscanned_ D$:/RoguelikeEngine/src/Level.cpp || cmake_object_order_depends_target_scenario_2_level_generation
+  DEP_FILE = scenarios\CMakeFiles\scenario_2_level_generation.dir\__\src\Level.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_2_level_generation.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_2_level_generation.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_2_level_generation.dir\
+  TARGET_PDB = scenarios\scenario_2_level_generation.pdb
+
+build scenarios/CMakeFiles/scenario_2_level_generation.dir/__/src/Logger.cpp.obj: CXX_COMPILER__scenario_2_level_generation_unscanned_ D$:/RoguelikeEngine/src/Logger.cpp || cmake_object_order_depends_target_scenario_2_level_generation
+  DEP_FILE = scenarios\CMakeFiles\scenario_2_level_generation.dir\__\src\Logger.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_2_level_generation.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_2_level_generation.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_2_level_generation.dir\
+  TARGET_PDB = scenarios\scenario_2_level_generation.pdb
+
+build scenarios/CMakeFiles/scenario_2_level_generation.dir/__/src/ModLoader.cpp.obj: CXX_COMPILER__scenario_2_level_generation_unscanned_ D$:/RoguelikeEngine/src/ModLoader.cpp || cmake_object_order_depends_target_scenario_2_level_generation
+  DEP_FILE = scenarios\CMakeFiles\scenario_2_level_generation.dir\__\src\ModLoader.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_2_level_generation.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_2_level_generation.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_2_level_generation.dir\
+  TARGET_PDB = scenarios\scenario_2_level_generation.pdb
+
+build scenarios/CMakeFiles/scenario_2_level_generation.dir/__/src/Monster.cpp.obj: CXX_COMPILER__scenario_2_level_generation_unscanned_ D$:/RoguelikeEngine/src/Monster.cpp || cmake_object_order_depends_target_scenario_2_level_generation
+  DEP_FILE = scenarios\CMakeFiles\scenario_2_level_generation.dir\__\src\Monster.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_2_level_generation.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_2_level_generation.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_2_level_generation.dir\
+  TARGET_PDB = scenarios\scenario_2_level_generation.pdb
+
+build scenarios/CMakeFiles/scenario_2_level_generation.dir/__/src/Player.cpp.obj: CXX_COMPILER__scenario_2_level_generation_unscanned_ D$:/RoguelikeEngine/src/Player.cpp || cmake_object_order_depends_target_scenario_2_level_generation
+  DEP_FILE = scenarios\CMakeFiles\scenario_2_level_generation.dir\__\src\Player.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_2_level_generation.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_2_level_generation.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_2_level_generation.dir\
+  TARGET_PDB = scenarios\scenario_2_level_generation.pdb
+
+build scenarios/CMakeFiles/scenario_2_level_generation.dir/__/src/Room.cpp.obj: CXX_COMPILER__scenario_2_level_generation_unscanned_ D$:/RoguelikeEngine/src/Room.cpp || cmake_object_order_depends_target_scenario_2_level_generation
+  DEP_FILE = scenarios\CMakeFiles\scenario_2_level_generation.dir\__\src\Room.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_2_level_generation.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_2_level_generation.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_2_level_generation.dir\
+  TARGET_PDB = scenarios\scenario_2_level_generation.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scenario_2_level_generation
+
+
+#############################################
+# Link the executable scenarios\scenario_2_level_generation.exe
+
+build scenarios/scenario_2_level_generation.exe: CXX_EXECUTABLE_LINKER__scenario_2_level_generation_ scenarios/CMakeFiles/scenario_2_level_generation.dir/scenario_2_level_generation.cpp.obj scenarios/CMakeFiles/scenario_2_level_generation.dir/__/src/GameEngine.cpp.obj scenarios/CMakeFiles/scenario_2_level_generation.dir/__/src/Item.cpp.obj scenarios/CMakeFiles/scenario_2_level_generation.dir/__/src/Level.cpp.obj scenarios/CMakeFiles/scenario_2_level_generation.dir/__/src/Logger.cpp.obj scenarios/CMakeFiles/scenario_2_level_generation.dir/__/src/ModLoader.cpp.obj scenarios/CMakeFiles/scenario_2_level_generation.dir/__/src/Monster.cpp.obj scenarios/CMakeFiles/scenario_2_level_generation.dir/__/src/Player.cpp.obj scenarios/CMakeFiles/scenario_2_level_generation.dir/__/src/Room.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_2_level_generation.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_2_level_generation.dir\
+  TARGET_FILE = scenarios\scenario_2_level_generation.exe
+  TARGET_IMPLIB = scenarios\libscenario_2_level_generation.dll.a
+  TARGET_PDB = scenarios\scenario_2_level_generation.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target scenario_3_player_movement
+
+
+#############################################
+# Order-only phony target for scenario_3_player_movement
+
+build cmake_object_order_depends_target_scenario_3_player_movement: phony || .
+
+build scenarios/CMakeFiles/scenario_3_player_movement.dir/scenario_3_player_movement.cpp.obj: CXX_COMPILER__scenario_3_player_movement_unscanned_ D$:/RoguelikeEngine/scenarios/scenario_3_player_movement.cpp || cmake_object_order_depends_target_scenario_3_player_movement
+  DEP_FILE = scenarios\CMakeFiles\scenario_3_player_movement.dir\scenario_3_player_movement.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_3_player_movement.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_3_player_movement.dir
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_3_player_movement.dir\
+  TARGET_PDB = scenarios\scenario_3_player_movement.pdb
+
+build scenarios/CMakeFiles/scenario_3_player_movement.dir/__/src/GameEngine.cpp.obj: CXX_COMPILER__scenario_3_player_movement_unscanned_ D$:/RoguelikeEngine/src/GameEngine.cpp || cmake_object_order_depends_target_scenario_3_player_movement
+  DEP_FILE = scenarios\CMakeFiles\scenario_3_player_movement.dir\__\src\GameEngine.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_3_player_movement.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_3_player_movement.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_3_player_movement.dir\
+  TARGET_PDB = scenarios\scenario_3_player_movement.pdb
+
+build scenarios/CMakeFiles/scenario_3_player_movement.dir/__/src/Item.cpp.obj: CXX_COMPILER__scenario_3_player_movement_unscanned_ D$:/RoguelikeEngine/src/Item.cpp || cmake_object_order_depends_target_scenario_3_player_movement
+  DEP_FILE = scenarios\CMakeFiles\scenario_3_player_movement.dir\__\src\Item.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_3_player_movement.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_3_player_movement.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_3_player_movement.dir\
+  TARGET_PDB = scenarios\scenario_3_player_movement.pdb
+
+build scenarios/CMakeFiles/scenario_3_player_movement.dir/__/src/Level.cpp.obj: CXX_COMPILER__scenario_3_player_movement_unscanned_ D$:/RoguelikeEngine/src/Level.cpp || cmake_object_order_depends_target_scenario_3_player_movement
+  DEP_FILE = scenarios\CMakeFiles\scenario_3_player_movement.dir\__\src\Level.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_3_player_movement.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_3_player_movement.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_3_player_movement.dir\
+  TARGET_PDB = scenarios\scenario_3_player_movement.pdb
+
+build scenarios/CMakeFiles/scenario_3_player_movement.dir/__/src/Logger.cpp.obj: CXX_COMPILER__scenario_3_player_movement_unscanned_ D$:/RoguelikeEngine/src/Logger.cpp || cmake_object_order_depends_target_scenario_3_player_movement
+  DEP_FILE = scenarios\CMakeFiles\scenario_3_player_movement.dir\__\src\Logger.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_3_player_movement.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_3_player_movement.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_3_player_movement.dir\
+  TARGET_PDB = scenarios\scenario_3_player_movement.pdb
+
+build scenarios/CMakeFiles/scenario_3_player_movement.dir/__/src/ModLoader.cpp.obj: CXX_COMPILER__scenario_3_player_movement_unscanned_ D$:/RoguelikeEngine/src/ModLoader.cpp || cmake_object_order_depends_target_scenario_3_player_movement
+  DEP_FILE = scenarios\CMakeFiles\scenario_3_player_movement.dir\__\src\ModLoader.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_3_player_movement.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_3_player_movement.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_3_player_movement.dir\
+  TARGET_PDB = scenarios\scenario_3_player_movement.pdb
+
+build scenarios/CMakeFiles/scenario_3_player_movement.dir/__/src/Monster.cpp.obj: CXX_COMPILER__scenario_3_player_movement_unscanned_ D$:/RoguelikeEngine/src/Monster.cpp || cmake_object_order_depends_target_scenario_3_player_movement
+  DEP_FILE = scenarios\CMakeFiles\scenario_3_player_movement.dir\__\src\Monster.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_3_player_movement.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_3_player_movement.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_3_player_movement.dir\
+  TARGET_PDB = scenarios\scenario_3_player_movement.pdb
+
+build scenarios/CMakeFiles/scenario_3_player_movement.dir/__/src/Player.cpp.obj: CXX_COMPILER__scenario_3_player_movement_unscanned_ D$:/RoguelikeEngine/src/Player.cpp || cmake_object_order_depends_target_scenario_3_player_movement
+  DEP_FILE = scenarios\CMakeFiles\scenario_3_player_movement.dir\__\src\Player.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_3_player_movement.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_3_player_movement.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_3_player_movement.dir\
+  TARGET_PDB = scenarios\scenario_3_player_movement.pdb
+
+build scenarios/CMakeFiles/scenario_3_player_movement.dir/__/src/Room.cpp.obj: CXX_COMPILER__scenario_3_player_movement_unscanned_ D$:/RoguelikeEngine/src/Room.cpp || cmake_object_order_depends_target_scenario_3_player_movement
+  DEP_FILE = scenarios\CMakeFiles\scenario_3_player_movement.dir\__\src\Room.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_3_player_movement.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_3_player_movement.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_3_player_movement.dir\
+  TARGET_PDB = scenarios\scenario_3_player_movement.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scenario_3_player_movement
+
+
+#############################################
+# Link the executable scenarios\scenario_3_player_movement.exe
+
+build scenarios/scenario_3_player_movement.exe: CXX_EXECUTABLE_LINKER__scenario_3_player_movement_ scenarios/CMakeFiles/scenario_3_player_movement.dir/scenario_3_player_movement.cpp.obj scenarios/CMakeFiles/scenario_3_player_movement.dir/__/src/GameEngine.cpp.obj scenarios/CMakeFiles/scenario_3_player_movement.dir/__/src/Item.cpp.obj scenarios/CMakeFiles/scenario_3_player_movement.dir/__/src/Level.cpp.obj scenarios/CMakeFiles/scenario_3_player_movement.dir/__/src/Logger.cpp.obj scenarios/CMakeFiles/scenario_3_player_movement.dir/__/src/ModLoader.cpp.obj scenarios/CMakeFiles/scenario_3_player_movement.dir/__/src/Monster.cpp.obj scenarios/CMakeFiles/scenario_3_player_movement.dir/__/src/Player.cpp.obj scenarios/CMakeFiles/scenario_3_player_movement.dir/__/src/Room.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_3_player_movement.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_3_player_movement.dir\
+  TARGET_FILE = scenarios\scenario_3_player_movement.exe
+  TARGET_IMPLIB = scenarios\libscenario_3_player_movement.dll.a
+  TARGET_PDB = scenarios\scenario_3_player_movement.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target scenario_4_combat_victory
+
+
+#############################################
+# Order-only phony target for scenario_4_combat_victory
+
+build cmake_object_order_depends_target_scenario_4_combat_victory: phony || .
+
+build scenarios/CMakeFiles/scenario_4_combat_victory.dir/scenario_4_combat_victory.cpp.obj: CXX_COMPILER__scenario_4_combat_victory_unscanned_ D$:/RoguelikeEngine/scenarios/scenario_4_combat_victory.cpp || cmake_object_order_depends_target_scenario_4_combat_victory
+  DEP_FILE = scenarios\CMakeFiles\scenario_4_combat_victory.dir\scenario_4_combat_victory.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_4_combat_victory.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_4_combat_victory.dir
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_4_combat_victory.dir\
+  TARGET_PDB = scenarios\scenario_4_combat_victory.pdb
+
+build scenarios/CMakeFiles/scenario_4_combat_victory.dir/__/src/GameEngine.cpp.obj: CXX_COMPILER__scenario_4_combat_victory_unscanned_ D$:/RoguelikeEngine/src/GameEngine.cpp || cmake_object_order_depends_target_scenario_4_combat_victory
+  DEP_FILE = scenarios\CMakeFiles\scenario_4_combat_victory.dir\__\src\GameEngine.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_4_combat_victory.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_4_combat_victory.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_4_combat_victory.dir\
+  TARGET_PDB = scenarios\scenario_4_combat_victory.pdb
+
+build scenarios/CMakeFiles/scenario_4_combat_victory.dir/__/src/Item.cpp.obj: CXX_COMPILER__scenario_4_combat_victory_unscanned_ D$:/RoguelikeEngine/src/Item.cpp || cmake_object_order_depends_target_scenario_4_combat_victory
+  DEP_FILE = scenarios\CMakeFiles\scenario_4_combat_victory.dir\__\src\Item.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_4_combat_victory.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_4_combat_victory.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_4_combat_victory.dir\
+  TARGET_PDB = scenarios\scenario_4_combat_victory.pdb
+
+build scenarios/CMakeFiles/scenario_4_combat_victory.dir/__/src/Level.cpp.obj: CXX_COMPILER__scenario_4_combat_victory_unscanned_ D$:/RoguelikeEngine/src/Level.cpp || cmake_object_order_depends_target_scenario_4_combat_victory
+  DEP_FILE = scenarios\CMakeFiles\scenario_4_combat_victory.dir\__\src\Level.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_4_combat_victory.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_4_combat_victory.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_4_combat_victory.dir\
+  TARGET_PDB = scenarios\scenario_4_combat_victory.pdb
+
+build scenarios/CMakeFiles/scenario_4_combat_victory.dir/__/src/Logger.cpp.obj: CXX_COMPILER__scenario_4_combat_victory_unscanned_ D$:/RoguelikeEngine/src/Logger.cpp || cmake_object_order_depends_target_scenario_4_combat_victory
+  DEP_FILE = scenarios\CMakeFiles\scenario_4_combat_victory.dir\__\src\Logger.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_4_combat_victory.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_4_combat_victory.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_4_combat_victory.dir\
+  TARGET_PDB = scenarios\scenario_4_combat_victory.pdb
+
+build scenarios/CMakeFiles/scenario_4_combat_victory.dir/__/src/ModLoader.cpp.obj: CXX_COMPILER__scenario_4_combat_victory_unscanned_ D$:/RoguelikeEngine/src/ModLoader.cpp || cmake_object_order_depends_target_scenario_4_combat_victory
+  DEP_FILE = scenarios\CMakeFiles\scenario_4_combat_victory.dir\__\src\ModLoader.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_4_combat_victory.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_4_combat_victory.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_4_combat_victory.dir\
+  TARGET_PDB = scenarios\scenario_4_combat_victory.pdb
+
+build scenarios/CMakeFiles/scenario_4_combat_victory.dir/__/src/Monster.cpp.obj: CXX_COMPILER__scenario_4_combat_victory_unscanned_ D$:/RoguelikeEngine/src/Monster.cpp || cmake_object_order_depends_target_scenario_4_combat_victory
+  DEP_FILE = scenarios\CMakeFiles\scenario_4_combat_victory.dir\__\src\Monster.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_4_combat_victory.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_4_combat_victory.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_4_combat_victory.dir\
+  TARGET_PDB = scenarios\scenario_4_combat_victory.pdb
+
+build scenarios/CMakeFiles/scenario_4_combat_victory.dir/__/src/Player.cpp.obj: CXX_COMPILER__scenario_4_combat_victory_unscanned_ D$:/RoguelikeEngine/src/Player.cpp || cmake_object_order_depends_target_scenario_4_combat_victory
+  DEP_FILE = scenarios\CMakeFiles\scenario_4_combat_victory.dir\__\src\Player.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_4_combat_victory.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_4_combat_victory.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_4_combat_victory.dir\
+  TARGET_PDB = scenarios\scenario_4_combat_victory.pdb
+
+build scenarios/CMakeFiles/scenario_4_combat_victory.dir/__/src/Room.cpp.obj: CXX_COMPILER__scenario_4_combat_victory_unscanned_ D$:/RoguelikeEngine/src/Room.cpp || cmake_object_order_depends_target_scenario_4_combat_victory
+  DEP_FILE = scenarios\CMakeFiles\scenario_4_combat_victory.dir\__\src\Room.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_4_combat_victory.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_4_combat_victory.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_4_combat_victory.dir\
+  TARGET_PDB = scenarios\scenario_4_combat_victory.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scenario_4_combat_victory
+
+
+#############################################
+# Link the executable scenarios\scenario_4_combat_victory.exe
+
+build scenarios/scenario_4_combat_victory.exe: CXX_EXECUTABLE_LINKER__scenario_4_combat_victory_ scenarios/CMakeFiles/scenario_4_combat_victory.dir/scenario_4_combat_victory.cpp.obj scenarios/CMakeFiles/scenario_4_combat_victory.dir/__/src/GameEngine.cpp.obj scenarios/CMakeFiles/scenario_4_combat_victory.dir/__/src/Item.cpp.obj scenarios/CMakeFiles/scenario_4_combat_victory.dir/__/src/Level.cpp.obj scenarios/CMakeFiles/scenario_4_combat_victory.dir/__/src/Logger.cpp.obj scenarios/CMakeFiles/scenario_4_combat_victory.dir/__/src/ModLoader.cpp.obj scenarios/CMakeFiles/scenario_4_combat_victory.dir/__/src/Monster.cpp.obj scenarios/CMakeFiles/scenario_4_combat_victory.dir/__/src/Player.cpp.obj scenarios/CMakeFiles/scenario_4_combat_victory.dir/__/src/Room.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_4_combat_victory.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_4_combat_victory.dir\
+  TARGET_FILE = scenarios\scenario_4_combat_victory.exe
+  TARGET_IMPLIB = scenarios\libscenario_4_combat_victory.dll.a
+  TARGET_PDB = scenarios\scenario_4_combat_victory.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target scenario_5_combat_death
+
+
+#############################################
+# Order-only phony target for scenario_5_combat_death
+
+build cmake_object_order_depends_target_scenario_5_combat_death: phony || .
+
+build scenarios/CMakeFiles/scenario_5_combat_death.dir/scenario_5_combat_death.cpp.obj: CXX_COMPILER__scenario_5_combat_death_unscanned_ D$:/RoguelikeEngine/scenarios/scenario_5_combat_death.cpp || cmake_object_order_depends_target_scenario_5_combat_death
+  DEP_FILE = scenarios\CMakeFiles\scenario_5_combat_death.dir\scenario_5_combat_death.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_5_combat_death.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_5_combat_death.dir
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_5_combat_death.dir\
+  TARGET_PDB = scenarios\scenario_5_combat_death.pdb
+
+build scenarios/CMakeFiles/scenario_5_combat_death.dir/__/src/GameEngine.cpp.obj: CXX_COMPILER__scenario_5_combat_death_unscanned_ D$:/RoguelikeEngine/src/GameEngine.cpp || cmake_object_order_depends_target_scenario_5_combat_death
+  DEP_FILE = scenarios\CMakeFiles\scenario_5_combat_death.dir\__\src\GameEngine.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_5_combat_death.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_5_combat_death.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_5_combat_death.dir\
+  TARGET_PDB = scenarios\scenario_5_combat_death.pdb
+
+build scenarios/CMakeFiles/scenario_5_combat_death.dir/__/src/Item.cpp.obj: CXX_COMPILER__scenario_5_combat_death_unscanned_ D$:/RoguelikeEngine/src/Item.cpp || cmake_object_order_depends_target_scenario_5_combat_death
+  DEP_FILE = scenarios\CMakeFiles\scenario_5_combat_death.dir\__\src\Item.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_5_combat_death.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_5_combat_death.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_5_combat_death.dir\
+  TARGET_PDB = scenarios\scenario_5_combat_death.pdb
+
+build scenarios/CMakeFiles/scenario_5_combat_death.dir/__/src/Level.cpp.obj: CXX_COMPILER__scenario_5_combat_death_unscanned_ D$:/RoguelikeEngine/src/Level.cpp || cmake_object_order_depends_target_scenario_5_combat_death
+  DEP_FILE = scenarios\CMakeFiles\scenario_5_combat_death.dir\__\src\Level.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_5_combat_death.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_5_combat_death.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_5_combat_death.dir\
+  TARGET_PDB = scenarios\scenario_5_combat_death.pdb
+
+build scenarios/CMakeFiles/scenario_5_combat_death.dir/__/src/Logger.cpp.obj: CXX_COMPILER__scenario_5_combat_death_unscanned_ D$:/RoguelikeEngine/src/Logger.cpp || cmake_object_order_depends_target_scenario_5_combat_death
+  DEP_FILE = scenarios\CMakeFiles\scenario_5_combat_death.dir\__\src\Logger.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_5_combat_death.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_5_combat_death.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_5_combat_death.dir\
+  TARGET_PDB = scenarios\scenario_5_combat_death.pdb
+
+build scenarios/CMakeFiles/scenario_5_combat_death.dir/__/src/ModLoader.cpp.obj: CXX_COMPILER__scenario_5_combat_death_unscanned_ D$:/RoguelikeEngine/src/ModLoader.cpp || cmake_object_order_depends_target_scenario_5_combat_death
+  DEP_FILE = scenarios\CMakeFiles\scenario_5_combat_death.dir\__\src\ModLoader.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_5_combat_death.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_5_combat_death.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_5_combat_death.dir\
+  TARGET_PDB = scenarios\scenario_5_combat_death.pdb
+
+build scenarios/CMakeFiles/scenario_5_combat_death.dir/__/src/Monster.cpp.obj: CXX_COMPILER__scenario_5_combat_death_unscanned_ D$:/RoguelikeEngine/src/Monster.cpp || cmake_object_order_depends_target_scenario_5_combat_death
+  DEP_FILE = scenarios\CMakeFiles\scenario_5_combat_death.dir\__\src\Monster.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_5_combat_death.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_5_combat_death.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_5_combat_death.dir\
+  TARGET_PDB = scenarios\scenario_5_combat_death.pdb
+
+build scenarios/CMakeFiles/scenario_5_combat_death.dir/__/src/Player.cpp.obj: CXX_COMPILER__scenario_5_combat_death_unscanned_ D$:/RoguelikeEngine/src/Player.cpp || cmake_object_order_depends_target_scenario_5_combat_death
+  DEP_FILE = scenarios\CMakeFiles\scenario_5_combat_death.dir\__\src\Player.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_5_combat_death.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_5_combat_death.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_5_combat_death.dir\
+  TARGET_PDB = scenarios\scenario_5_combat_death.pdb
+
+build scenarios/CMakeFiles/scenario_5_combat_death.dir/__/src/Room.cpp.obj: CXX_COMPILER__scenario_5_combat_death_unscanned_ D$:/RoguelikeEngine/src/Room.cpp || cmake_object_order_depends_target_scenario_5_combat_death
+  DEP_FILE = scenarios\CMakeFiles\scenario_5_combat_death.dir\__\src\Room.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_5_combat_death.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_5_combat_death.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_5_combat_death.dir\
+  TARGET_PDB = scenarios\scenario_5_combat_death.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scenario_5_combat_death
+
+
+#############################################
+# Link the executable scenarios\scenario_5_combat_death.exe
+
+build scenarios/scenario_5_combat_death.exe: CXX_EXECUTABLE_LINKER__scenario_5_combat_death_ scenarios/CMakeFiles/scenario_5_combat_death.dir/scenario_5_combat_death.cpp.obj scenarios/CMakeFiles/scenario_5_combat_death.dir/__/src/GameEngine.cpp.obj scenarios/CMakeFiles/scenario_5_combat_death.dir/__/src/Item.cpp.obj scenarios/CMakeFiles/scenario_5_combat_death.dir/__/src/Level.cpp.obj scenarios/CMakeFiles/scenario_5_combat_death.dir/__/src/Logger.cpp.obj scenarios/CMakeFiles/scenario_5_combat_death.dir/__/src/ModLoader.cpp.obj scenarios/CMakeFiles/scenario_5_combat_death.dir/__/src/Monster.cpp.obj scenarios/CMakeFiles/scenario_5_combat_death.dir/__/src/Player.cpp.obj scenarios/CMakeFiles/scenario_5_combat_death.dir/__/src/Room.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_5_combat_death.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_5_combat_death.dir\
+  TARGET_FILE = scenarios\scenario_5_combat_death.exe
+  TARGET_IMPLIB = scenarios\libscenario_5_combat_death.dll.a
+  TARGET_PDB = scenarios\scenario_5_combat_death.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target scenario_6_combat_escape
+
+
+#############################################
+# Order-only phony target for scenario_6_combat_escape
+
+build cmake_object_order_depends_target_scenario_6_combat_escape: phony || .
+
+build scenarios/CMakeFiles/scenario_6_combat_escape.dir/scenario_6_combat_escape.cpp.obj: CXX_COMPILER__scenario_6_combat_escape_unscanned_ D$:/RoguelikeEngine/scenarios/scenario_6_combat_escape.cpp || cmake_object_order_depends_target_scenario_6_combat_escape
+  DEP_FILE = scenarios\CMakeFiles\scenario_6_combat_escape.dir\scenario_6_combat_escape.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_6_combat_escape.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_6_combat_escape.dir
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_6_combat_escape.dir\
+  TARGET_PDB = scenarios\scenario_6_combat_escape.pdb
+
+build scenarios/CMakeFiles/scenario_6_combat_escape.dir/__/src/GameEngine.cpp.obj: CXX_COMPILER__scenario_6_combat_escape_unscanned_ D$:/RoguelikeEngine/src/GameEngine.cpp || cmake_object_order_depends_target_scenario_6_combat_escape
+  DEP_FILE = scenarios\CMakeFiles\scenario_6_combat_escape.dir\__\src\GameEngine.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_6_combat_escape.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_6_combat_escape.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_6_combat_escape.dir\
+  TARGET_PDB = scenarios\scenario_6_combat_escape.pdb
+
+build scenarios/CMakeFiles/scenario_6_combat_escape.dir/__/src/Item.cpp.obj: CXX_COMPILER__scenario_6_combat_escape_unscanned_ D$:/RoguelikeEngine/src/Item.cpp || cmake_object_order_depends_target_scenario_6_combat_escape
+  DEP_FILE = scenarios\CMakeFiles\scenario_6_combat_escape.dir\__\src\Item.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_6_combat_escape.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_6_combat_escape.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_6_combat_escape.dir\
+  TARGET_PDB = scenarios\scenario_6_combat_escape.pdb
+
+build scenarios/CMakeFiles/scenario_6_combat_escape.dir/__/src/Level.cpp.obj: CXX_COMPILER__scenario_6_combat_escape_unscanned_ D$:/RoguelikeEngine/src/Level.cpp || cmake_object_order_depends_target_scenario_6_combat_escape
+  DEP_FILE = scenarios\CMakeFiles\scenario_6_combat_escape.dir\__\src\Level.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_6_combat_escape.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_6_combat_escape.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_6_combat_escape.dir\
+  TARGET_PDB = scenarios\scenario_6_combat_escape.pdb
+
+build scenarios/CMakeFiles/scenario_6_combat_escape.dir/__/src/Logger.cpp.obj: CXX_COMPILER__scenario_6_combat_escape_unscanned_ D$:/RoguelikeEngine/src/Logger.cpp || cmake_object_order_depends_target_scenario_6_combat_escape
+  DEP_FILE = scenarios\CMakeFiles\scenario_6_combat_escape.dir\__\src\Logger.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_6_combat_escape.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_6_combat_escape.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_6_combat_escape.dir\
+  TARGET_PDB = scenarios\scenario_6_combat_escape.pdb
+
+build scenarios/CMakeFiles/scenario_6_combat_escape.dir/__/src/ModLoader.cpp.obj: CXX_COMPILER__scenario_6_combat_escape_unscanned_ D$:/RoguelikeEngine/src/ModLoader.cpp || cmake_object_order_depends_target_scenario_6_combat_escape
+  DEP_FILE = scenarios\CMakeFiles\scenario_6_combat_escape.dir\__\src\ModLoader.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_6_combat_escape.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_6_combat_escape.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_6_combat_escape.dir\
+  TARGET_PDB = scenarios\scenario_6_combat_escape.pdb
+
+build scenarios/CMakeFiles/scenario_6_combat_escape.dir/__/src/Monster.cpp.obj: CXX_COMPILER__scenario_6_combat_escape_unscanned_ D$:/RoguelikeEngine/src/Monster.cpp || cmake_object_order_depends_target_scenario_6_combat_escape
+  DEP_FILE = scenarios\CMakeFiles\scenario_6_combat_escape.dir\__\src\Monster.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_6_combat_escape.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_6_combat_escape.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_6_combat_escape.dir\
+  TARGET_PDB = scenarios\scenario_6_combat_escape.pdb
+
+build scenarios/CMakeFiles/scenario_6_combat_escape.dir/__/src/Player.cpp.obj: CXX_COMPILER__scenario_6_combat_escape_unscanned_ D$:/RoguelikeEngine/src/Player.cpp || cmake_object_order_depends_target_scenario_6_combat_escape
+  DEP_FILE = scenarios\CMakeFiles\scenario_6_combat_escape.dir\__\src\Player.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_6_combat_escape.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_6_combat_escape.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_6_combat_escape.dir\
+  TARGET_PDB = scenarios\scenario_6_combat_escape.pdb
+
+build scenarios/CMakeFiles/scenario_6_combat_escape.dir/__/src/Room.cpp.obj: CXX_COMPILER__scenario_6_combat_escape_unscanned_ D$:/RoguelikeEngine/src/Room.cpp || cmake_object_order_depends_target_scenario_6_combat_escape
+  DEP_FILE = scenarios\CMakeFiles\scenario_6_combat_escape.dir\__\src\Room.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_6_combat_escape.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_6_combat_escape.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_6_combat_escape.dir\
+  TARGET_PDB = scenarios\scenario_6_combat_escape.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scenario_6_combat_escape
+
+
+#############################################
+# Link the executable scenarios\scenario_6_combat_escape.exe
+
+build scenarios/scenario_6_combat_escape.exe: CXX_EXECUTABLE_LINKER__scenario_6_combat_escape_ scenarios/CMakeFiles/scenario_6_combat_escape.dir/scenario_6_combat_escape.cpp.obj scenarios/CMakeFiles/scenario_6_combat_escape.dir/__/src/GameEngine.cpp.obj scenarios/CMakeFiles/scenario_6_combat_escape.dir/__/src/Item.cpp.obj scenarios/CMakeFiles/scenario_6_combat_escape.dir/__/src/Level.cpp.obj scenarios/CMakeFiles/scenario_6_combat_escape.dir/__/src/Logger.cpp.obj scenarios/CMakeFiles/scenario_6_combat_escape.dir/__/src/ModLoader.cpp.obj scenarios/CMakeFiles/scenario_6_combat_escape.dir/__/src/Monster.cpp.obj scenarios/CMakeFiles/scenario_6_combat_escape.dir/__/src/Player.cpp.obj scenarios/CMakeFiles/scenario_6_combat_escape.dir/__/src/Room.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_6_combat_escape.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_6_combat_escape.dir\
+  TARGET_FILE = scenarios\scenario_6_combat_escape.exe
+  TARGET_IMPLIB = scenarios\libscenario_6_combat_escape.dll.a
+  TARGET_PDB = scenarios\scenario_6_combat_escape.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target scenario_7_pickup_item
+
+
+#############################################
+# Order-only phony target for scenario_7_pickup_item
+
+build cmake_object_order_depends_target_scenario_7_pickup_item: phony || .
+
+build scenarios/CMakeFiles/scenario_7_pickup_item.dir/scenario_7_pickup_item.cpp.obj: CXX_COMPILER__scenario_7_pickup_item_unscanned_ D$:/RoguelikeEngine/scenarios/scenario_7_pickup_item.cpp || cmake_object_order_depends_target_scenario_7_pickup_item
+  DEP_FILE = scenarios\CMakeFiles\scenario_7_pickup_item.dir\scenario_7_pickup_item.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_7_pickup_item.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_7_pickup_item.dir
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_7_pickup_item.dir\
+  TARGET_PDB = scenarios\scenario_7_pickup_item.pdb
+
+build scenarios/CMakeFiles/scenario_7_pickup_item.dir/__/src/GameEngine.cpp.obj: CXX_COMPILER__scenario_7_pickup_item_unscanned_ D$:/RoguelikeEngine/src/GameEngine.cpp || cmake_object_order_depends_target_scenario_7_pickup_item
+  DEP_FILE = scenarios\CMakeFiles\scenario_7_pickup_item.dir\__\src\GameEngine.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_7_pickup_item.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_7_pickup_item.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_7_pickup_item.dir\
+  TARGET_PDB = scenarios\scenario_7_pickup_item.pdb
+
+build scenarios/CMakeFiles/scenario_7_pickup_item.dir/__/src/Item.cpp.obj: CXX_COMPILER__scenario_7_pickup_item_unscanned_ D$:/RoguelikeEngine/src/Item.cpp || cmake_object_order_depends_target_scenario_7_pickup_item
+  DEP_FILE = scenarios\CMakeFiles\scenario_7_pickup_item.dir\__\src\Item.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_7_pickup_item.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_7_pickup_item.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_7_pickup_item.dir\
+  TARGET_PDB = scenarios\scenario_7_pickup_item.pdb
+
+build scenarios/CMakeFiles/scenario_7_pickup_item.dir/__/src/Level.cpp.obj: CXX_COMPILER__scenario_7_pickup_item_unscanned_ D$:/RoguelikeEngine/src/Level.cpp || cmake_object_order_depends_target_scenario_7_pickup_item
+  DEP_FILE = scenarios\CMakeFiles\scenario_7_pickup_item.dir\__\src\Level.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_7_pickup_item.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_7_pickup_item.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_7_pickup_item.dir\
+  TARGET_PDB = scenarios\scenario_7_pickup_item.pdb
+
+build scenarios/CMakeFiles/scenario_7_pickup_item.dir/__/src/Logger.cpp.obj: CXX_COMPILER__scenario_7_pickup_item_unscanned_ D$:/RoguelikeEngine/src/Logger.cpp || cmake_object_order_depends_target_scenario_7_pickup_item
+  DEP_FILE = scenarios\CMakeFiles\scenario_7_pickup_item.dir\__\src\Logger.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_7_pickup_item.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_7_pickup_item.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_7_pickup_item.dir\
+  TARGET_PDB = scenarios\scenario_7_pickup_item.pdb
+
+build scenarios/CMakeFiles/scenario_7_pickup_item.dir/__/src/ModLoader.cpp.obj: CXX_COMPILER__scenario_7_pickup_item_unscanned_ D$:/RoguelikeEngine/src/ModLoader.cpp || cmake_object_order_depends_target_scenario_7_pickup_item
+  DEP_FILE = scenarios\CMakeFiles\scenario_7_pickup_item.dir\__\src\ModLoader.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_7_pickup_item.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_7_pickup_item.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_7_pickup_item.dir\
+  TARGET_PDB = scenarios\scenario_7_pickup_item.pdb
+
+build scenarios/CMakeFiles/scenario_7_pickup_item.dir/__/src/Monster.cpp.obj: CXX_COMPILER__scenario_7_pickup_item_unscanned_ D$:/RoguelikeEngine/src/Monster.cpp || cmake_object_order_depends_target_scenario_7_pickup_item
+  DEP_FILE = scenarios\CMakeFiles\scenario_7_pickup_item.dir\__\src\Monster.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_7_pickup_item.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_7_pickup_item.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_7_pickup_item.dir\
+  TARGET_PDB = scenarios\scenario_7_pickup_item.pdb
+
+build scenarios/CMakeFiles/scenario_7_pickup_item.dir/__/src/Player.cpp.obj: CXX_COMPILER__scenario_7_pickup_item_unscanned_ D$:/RoguelikeEngine/src/Player.cpp || cmake_object_order_depends_target_scenario_7_pickup_item
+  DEP_FILE = scenarios\CMakeFiles\scenario_7_pickup_item.dir\__\src\Player.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_7_pickup_item.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_7_pickup_item.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_7_pickup_item.dir\
+  TARGET_PDB = scenarios\scenario_7_pickup_item.pdb
+
+build scenarios/CMakeFiles/scenario_7_pickup_item.dir/__/src/Room.cpp.obj: CXX_COMPILER__scenario_7_pickup_item_unscanned_ D$:/RoguelikeEngine/src/Room.cpp || cmake_object_order_depends_target_scenario_7_pickup_item
+  DEP_FILE = scenarios\CMakeFiles\scenario_7_pickup_item.dir\__\src\Room.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_7_pickup_item.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_7_pickup_item.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_7_pickup_item.dir\
+  TARGET_PDB = scenarios\scenario_7_pickup_item.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scenario_7_pickup_item
+
+
+#############################################
+# Link the executable scenarios\scenario_7_pickup_item.exe
+
+build scenarios/scenario_7_pickup_item.exe: CXX_EXECUTABLE_LINKER__scenario_7_pickup_item_ scenarios/CMakeFiles/scenario_7_pickup_item.dir/scenario_7_pickup_item.cpp.obj scenarios/CMakeFiles/scenario_7_pickup_item.dir/__/src/GameEngine.cpp.obj scenarios/CMakeFiles/scenario_7_pickup_item.dir/__/src/Item.cpp.obj scenarios/CMakeFiles/scenario_7_pickup_item.dir/__/src/Level.cpp.obj scenarios/CMakeFiles/scenario_7_pickup_item.dir/__/src/Logger.cpp.obj scenarios/CMakeFiles/scenario_7_pickup_item.dir/__/src/ModLoader.cpp.obj scenarios/CMakeFiles/scenario_7_pickup_item.dir/__/src/Monster.cpp.obj scenarios/CMakeFiles/scenario_7_pickup_item.dir/__/src/Player.cpp.obj scenarios/CMakeFiles/scenario_7_pickup_item.dir/__/src/Room.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_7_pickup_item.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_7_pickup_item.dir\
+  TARGET_FILE = scenarios\scenario_7_pickup_item.exe
+  TARGET_IMPLIB = scenarios\libscenario_7_pickup_item.dll.a
+  TARGET_PDB = scenarios\scenario_7_pickup_item.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target scenario_8_use_potion
+
+
+#############################################
+# Order-only phony target for scenario_8_use_potion
+
+build cmake_object_order_depends_target_scenario_8_use_potion: phony || .
+
+build scenarios/CMakeFiles/scenario_8_use_potion.dir/scenario_8_use_potion.cpp.obj: CXX_COMPILER__scenario_8_use_potion_unscanned_ D$:/RoguelikeEngine/scenarios/scenario_8_use_potion.cpp || cmake_object_order_depends_target_scenario_8_use_potion
+  DEP_FILE = scenarios\CMakeFiles\scenario_8_use_potion.dir\scenario_8_use_potion.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_8_use_potion.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_8_use_potion.dir
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_8_use_potion.dir\
+  TARGET_PDB = scenarios\scenario_8_use_potion.pdb
+
+build scenarios/CMakeFiles/scenario_8_use_potion.dir/__/src/GameEngine.cpp.obj: CXX_COMPILER__scenario_8_use_potion_unscanned_ D$:/RoguelikeEngine/src/GameEngine.cpp || cmake_object_order_depends_target_scenario_8_use_potion
+  DEP_FILE = scenarios\CMakeFiles\scenario_8_use_potion.dir\__\src\GameEngine.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_8_use_potion.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_8_use_potion.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_8_use_potion.dir\
+  TARGET_PDB = scenarios\scenario_8_use_potion.pdb
+
+build scenarios/CMakeFiles/scenario_8_use_potion.dir/__/src/Item.cpp.obj: CXX_COMPILER__scenario_8_use_potion_unscanned_ D$:/RoguelikeEngine/src/Item.cpp || cmake_object_order_depends_target_scenario_8_use_potion
+  DEP_FILE = scenarios\CMakeFiles\scenario_8_use_potion.dir\__\src\Item.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_8_use_potion.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_8_use_potion.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_8_use_potion.dir\
+  TARGET_PDB = scenarios\scenario_8_use_potion.pdb
+
+build scenarios/CMakeFiles/scenario_8_use_potion.dir/__/src/Level.cpp.obj: CXX_COMPILER__scenario_8_use_potion_unscanned_ D$:/RoguelikeEngine/src/Level.cpp || cmake_object_order_depends_target_scenario_8_use_potion
+  DEP_FILE = scenarios\CMakeFiles\scenario_8_use_potion.dir\__\src\Level.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_8_use_potion.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_8_use_potion.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_8_use_potion.dir\
+  TARGET_PDB = scenarios\scenario_8_use_potion.pdb
+
+build scenarios/CMakeFiles/scenario_8_use_potion.dir/__/src/Logger.cpp.obj: CXX_COMPILER__scenario_8_use_potion_unscanned_ D$:/RoguelikeEngine/src/Logger.cpp || cmake_object_order_depends_target_scenario_8_use_potion
+  DEP_FILE = scenarios\CMakeFiles\scenario_8_use_potion.dir\__\src\Logger.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_8_use_potion.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_8_use_potion.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_8_use_potion.dir\
+  TARGET_PDB = scenarios\scenario_8_use_potion.pdb
+
+build scenarios/CMakeFiles/scenario_8_use_potion.dir/__/src/ModLoader.cpp.obj: CXX_COMPILER__scenario_8_use_potion_unscanned_ D$:/RoguelikeEngine/src/ModLoader.cpp || cmake_object_order_depends_target_scenario_8_use_potion
+  DEP_FILE = scenarios\CMakeFiles\scenario_8_use_potion.dir\__\src\ModLoader.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_8_use_potion.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_8_use_potion.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_8_use_potion.dir\
+  TARGET_PDB = scenarios\scenario_8_use_potion.pdb
+
+build scenarios/CMakeFiles/scenario_8_use_potion.dir/__/src/Monster.cpp.obj: CXX_COMPILER__scenario_8_use_potion_unscanned_ D$:/RoguelikeEngine/src/Monster.cpp || cmake_object_order_depends_target_scenario_8_use_potion
+  DEP_FILE = scenarios\CMakeFiles\scenario_8_use_potion.dir\__\src\Monster.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_8_use_potion.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_8_use_potion.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_8_use_potion.dir\
+  TARGET_PDB = scenarios\scenario_8_use_potion.pdb
+
+build scenarios/CMakeFiles/scenario_8_use_potion.dir/__/src/Player.cpp.obj: CXX_COMPILER__scenario_8_use_potion_unscanned_ D$:/RoguelikeEngine/src/Player.cpp || cmake_object_order_depends_target_scenario_8_use_potion
+  DEP_FILE = scenarios\CMakeFiles\scenario_8_use_potion.dir\__\src\Player.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_8_use_potion.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_8_use_potion.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_8_use_potion.dir\
+  TARGET_PDB = scenarios\scenario_8_use_potion.pdb
+
+build scenarios/CMakeFiles/scenario_8_use_potion.dir/__/src/Room.cpp.obj: CXX_COMPILER__scenario_8_use_potion_unscanned_ D$:/RoguelikeEngine/src/Room.cpp || cmake_object_order_depends_target_scenario_8_use_potion
+  DEP_FILE = scenarios\CMakeFiles\scenario_8_use_potion.dir\__\src\Room.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_8_use_potion.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_8_use_potion.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_8_use_potion.dir\
+  TARGET_PDB = scenarios\scenario_8_use_potion.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scenario_8_use_potion
+
+
+#############################################
+# Link the executable scenarios\scenario_8_use_potion.exe
+
+build scenarios/scenario_8_use_potion.exe: CXX_EXECUTABLE_LINKER__scenario_8_use_potion_ scenarios/CMakeFiles/scenario_8_use_potion.dir/scenario_8_use_potion.cpp.obj scenarios/CMakeFiles/scenario_8_use_potion.dir/__/src/GameEngine.cpp.obj scenarios/CMakeFiles/scenario_8_use_potion.dir/__/src/Item.cpp.obj scenarios/CMakeFiles/scenario_8_use_potion.dir/__/src/Level.cpp.obj scenarios/CMakeFiles/scenario_8_use_potion.dir/__/src/Logger.cpp.obj scenarios/CMakeFiles/scenario_8_use_potion.dir/__/src/ModLoader.cpp.obj scenarios/CMakeFiles/scenario_8_use_potion.dir/__/src/Monster.cpp.obj scenarios/CMakeFiles/scenario_8_use_potion.dir/__/src/Player.cpp.obj scenarios/CMakeFiles/scenario_8_use_potion.dir/__/src/Room.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_8_use_potion.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_8_use_potion.dir\
+  TARGET_FILE = scenarios\scenario_8_use_potion.exe
+  TARGET_IMPLIB = scenarios\libscenario_8_use_potion.dll.a
+  TARGET_PDB = scenarios\scenario_8_use_potion.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target scenario_9_use_weapon
+
+
+#############################################
+# Order-only phony target for scenario_9_use_weapon
+
+build cmake_object_order_depends_target_scenario_9_use_weapon: phony || .
+
+build scenarios/CMakeFiles/scenario_9_use_weapon.dir/scenario_9_use_weapon.cpp.obj: CXX_COMPILER__scenario_9_use_weapon_unscanned_ D$:/RoguelikeEngine/scenarios/scenario_9_use_weapon.cpp || cmake_object_order_depends_target_scenario_9_use_weapon
+  DEP_FILE = scenarios\CMakeFiles\scenario_9_use_weapon.dir\scenario_9_use_weapon.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_9_use_weapon.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_9_use_weapon.dir
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_9_use_weapon.dir\
+  TARGET_PDB = scenarios\scenario_9_use_weapon.pdb
+
+build scenarios/CMakeFiles/scenario_9_use_weapon.dir/__/src/GameEngine.cpp.obj: CXX_COMPILER__scenario_9_use_weapon_unscanned_ D$:/RoguelikeEngine/src/GameEngine.cpp || cmake_object_order_depends_target_scenario_9_use_weapon
+  DEP_FILE = scenarios\CMakeFiles\scenario_9_use_weapon.dir\__\src\GameEngine.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_9_use_weapon.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_9_use_weapon.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_9_use_weapon.dir\
+  TARGET_PDB = scenarios\scenario_9_use_weapon.pdb
+
+build scenarios/CMakeFiles/scenario_9_use_weapon.dir/__/src/Item.cpp.obj: CXX_COMPILER__scenario_9_use_weapon_unscanned_ D$:/RoguelikeEngine/src/Item.cpp || cmake_object_order_depends_target_scenario_9_use_weapon
+  DEP_FILE = scenarios\CMakeFiles\scenario_9_use_weapon.dir\__\src\Item.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_9_use_weapon.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_9_use_weapon.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_9_use_weapon.dir\
+  TARGET_PDB = scenarios\scenario_9_use_weapon.pdb
+
+build scenarios/CMakeFiles/scenario_9_use_weapon.dir/__/src/Level.cpp.obj: CXX_COMPILER__scenario_9_use_weapon_unscanned_ D$:/RoguelikeEngine/src/Level.cpp || cmake_object_order_depends_target_scenario_9_use_weapon
+  DEP_FILE = scenarios\CMakeFiles\scenario_9_use_weapon.dir\__\src\Level.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_9_use_weapon.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_9_use_weapon.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_9_use_weapon.dir\
+  TARGET_PDB = scenarios\scenario_9_use_weapon.pdb
+
+build scenarios/CMakeFiles/scenario_9_use_weapon.dir/__/src/Logger.cpp.obj: CXX_COMPILER__scenario_9_use_weapon_unscanned_ D$:/RoguelikeEngine/src/Logger.cpp || cmake_object_order_depends_target_scenario_9_use_weapon
+  DEP_FILE = scenarios\CMakeFiles\scenario_9_use_weapon.dir\__\src\Logger.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_9_use_weapon.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_9_use_weapon.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_9_use_weapon.dir\
+  TARGET_PDB = scenarios\scenario_9_use_weapon.pdb
+
+build scenarios/CMakeFiles/scenario_9_use_weapon.dir/__/src/ModLoader.cpp.obj: CXX_COMPILER__scenario_9_use_weapon_unscanned_ D$:/RoguelikeEngine/src/ModLoader.cpp || cmake_object_order_depends_target_scenario_9_use_weapon
+  DEP_FILE = scenarios\CMakeFiles\scenario_9_use_weapon.dir\__\src\ModLoader.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_9_use_weapon.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_9_use_weapon.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_9_use_weapon.dir\
+  TARGET_PDB = scenarios\scenario_9_use_weapon.pdb
+
+build scenarios/CMakeFiles/scenario_9_use_weapon.dir/__/src/Monster.cpp.obj: CXX_COMPILER__scenario_9_use_weapon_unscanned_ D$:/RoguelikeEngine/src/Monster.cpp || cmake_object_order_depends_target_scenario_9_use_weapon
+  DEP_FILE = scenarios\CMakeFiles\scenario_9_use_weapon.dir\__\src\Monster.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_9_use_weapon.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_9_use_weapon.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_9_use_weapon.dir\
+  TARGET_PDB = scenarios\scenario_9_use_weapon.pdb
+
+build scenarios/CMakeFiles/scenario_9_use_weapon.dir/__/src/Player.cpp.obj: CXX_COMPILER__scenario_9_use_weapon_unscanned_ D$:/RoguelikeEngine/src/Player.cpp || cmake_object_order_depends_target_scenario_9_use_weapon
+  DEP_FILE = scenarios\CMakeFiles\scenario_9_use_weapon.dir\__\src\Player.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_9_use_weapon.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_9_use_weapon.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_9_use_weapon.dir\
+  TARGET_PDB = scenarios\scenario_9_use_weapon.pdb
+
+build scenarios/CMakeFiles/scenario_9_use_weapon.dir/__/src/Room.cpp.obj: CXX_COMPILER__scenario_9_use_weapon_unscanned_ D$:/RoguelikeEngine/src/Room.cpp || cmake_object_order_depends_target_scenario_9_use_weapon
+  DEP_FILE = scenarios\CMakeFiles\scenario_9_use_weapon.dir\__\src\Room.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/RoguelikeEngine/include
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_9_use_weapon.dir
+  OBJECT_FILE_DIR = scenarios\CMakeFiles\scenario_9_use_weapon.dir\__\src
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_9_use_weapon.dir\
+  TARGET_PDB = scenarios\scenario_9_use_weapon.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scenario_9_use_weapon
+
+
+#############################################
+# Link the executable scenarios\scenario_9_use_weapon.exe
+
+build scenarios/scenario_9_use_weapon.exe: CXX_EXECUTABLE_LINKER__scenario_9_use_weapon_ scenarios/CMakeFiles/scenario_9_use_weapon.dir/scenario_9_use_weapon.cpp.obj scenarios/CMakeFiles/scenario_9_use_weapon.dir/__/src/GameEngine.cpp.obj scenarios/CMakeFiles/scenario_9_use_weapon.dir/__/src/Item.cpp.obj scenarios/CMakeFiles/scenario_9_use_weapon.dir/__/src/Level.cpp.obj scenarios/CMakeFiles/scenario_9_use_weapon.dir/__/src/Logger.cpp.obj scenarios/CMakeFiles/scenario_9_use_weapon.dir/__/src/ModLoader.cpp.obj scenarios/CMakeFiles/scenario_9_use_weapon.dir/__/src/Monster.cpp.obj scenarios/CMakeFiles/scenario_9_use_weapon.dir/__/src/Player.cpp.obj scenarios/CMakeFiles/scenario_9_use_weapon.dir/__/src/Room.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = scenarios\CMakeFiles\scenario_9_use_weapon.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = scenarios\CMakeFiles\scenario_9_use_weapon.dir\
+  TARGET_FILE = scenarios\scenario_9_use_weapon.exe
+  TARGET_IMPLIB = scenarios\libscenario_9_use_weapon.dll.a
+  TARGET_PDB = scenarios\scenario_9_use_weapon.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build scenarios/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\scenarios && C:\msys64\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build scenarios/edit_cache: phony scenarios/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build scenarios/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\RoguelikeEngine\build\scenarios && C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -SD:\RoguelikeEngine -BD:\RoguelikeEngine\build"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build scenarios/rebuild_cache: phony scenarios/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
-build RoguelikeEngine: phony RoguelikeEngine.exe
+build Continuous: phony tests/Continuous
+
+build ContinuousBuild: phony tests/ContinuousBuild
+
+build ContinuousConfigure: phony tests/ContinuousConfigure
+
+build ContinuousCoverage: phony tests/ContinuousCoverage
+
+build ContinuousMemCheck: phony tests/ContinuousMemCheck
+
+build ContinuousStart: phony tests/ContinuousStart
+
+build ContinuousSubmit: phony tests/ContinuousSubmit
+
+build ContinuousTest: phony tests/ContinuousTest
+
+build ContinuousUpdate: phony tests/ContinuousUpdate
+
+build Experimental: phony tests/Experimental
+
+build ExperimentalBuild: phony tests/ExperimentalBuild
+
+build ExperimentalConfigure: phony tests/ExperimentalConfigure
+
+build ExperimentalCoverage: phony tests/ExperimentalCoverage
+
+build ExperimentalMemCheck: phony tests/ExperimentalMemCheck
+
+build ExperimentalStart: phony tests/ExperimentalStart
+
+build ExperimentalSubmit: phony tests/ExperimentalSubmit
+
+build ExperimentalTest: phony tests/ExperimentalTest
+
+build ExperimentalUpdate: phony tests/ExperimentalUpdate
+
+build Nightly: phony tests/Nightly
+
+build NightlyBuild: phony tests/NightlyBuild
+
+build NightlyConfigure: phony tests/NightlyConfigure
+
+build NightlyCoverage: phony tests/NightlyCoverage
+
+build NightlyMemCheck: phony tests/NightlyMemCheck
+
+build NightlyMemoryCheck: phony tests/NightlyMemoryCheck
+
+build NightlyStart: phony tests/NightlyStart
+
+build NightlySubmit: phony tests/NightlySubmit
+
+build NightlyTest: phony tests/NightlyTest
+
+build NightlyUpdate: phony tests/NightlyUpdate
+
+build roguelike_game: phony roguelike_game.exe
+
+build roguelike_tests: phony tests/roguelike_tests.exe
+
+build roguelike_tests.exe: phony tests/roguelike_tests.exe
+
+build scenario_10_clear_level: phony scenarios/scenario_10_clear_level.exe
+
+build scenario_10_clear_level.exe: phony scenarios/scenario_10_clear_level.exe
+
+build scenario_11_boss_fight: phony scenarios/scenario_11_boss_fight.exe
+
+build scenario_11_boss_fight.exe: phony scenarios/scenario_11_boss_fight.exe
+
+build scenario_12_mod_loading: phony scenarios/scenario_12_mod_loading.exe
+
+build scenario_12_mod_loading.exe: phony scenarios/scenario_12_mod_loading.exe
+
+build scenario_13_use_armor: phony scenarios/scenario_13_use_armor.exe
+
+build scenario_13_use_armor.exe: phony scenarios/scenario_13_use_armor.exe
+
+build scenario_1_game_start: phony scenarios/scenario_1_game_start.exe
+
+build scenario_1_game_start.exe: phony scenarios/scenario_1_game_start.exe
+
+build scenario_2_level_generation: phony scenarios/scenario_2_level_generation.exe
+
+build scenario_2_level_generation.exe: phony scenarios/scenario_2_level_generation.exe
+
+build scenario_3_player_movement: phony scenarios/scenario_3_player_movement.exe
+
+build scenario_3_player_movement.exe: phony scenarios/scenario_3_player_movement.exe
+
+build scenario_4_combat_victory: phony scenarios/scenario_4_combat_victory.exe
+
+build scenario_4_combat_victory.exe: phony scenarios/scenario_4_combat_victory.exe
+
+build scenario_5_combat_death: phony scenarios/scenario_5_combat_death.exe
+
+build scenario_5_combat_death.exe: phony scenarios/scenario_5_combat_death.exe
+
+build scenario_6_combat_escape: phony scenarios/scenario_6_combat_escape.exe
+
+build scenario_6_combat_escape.exe: phony scenarios/scenario_6_combat_escape.exe
+
+build scenario_7_pickup_item: phony scenarios/scenario_7_pickup_item.exe
+
+build scenario_7_pickup_item.exe: phony scenarios/scenario_7_pickup_item.exe
+
+build scenario_8_use_potion: phony scenarios/scenario_8_use_potion.exe
+
+build scenario_8_use_potion.exe: phony scenarios/scenario_8_use_potion.exe
+
+build scenario_9_use_weapon: phony scenarios/scenario_9_use_weapon.exe
+
+build scenario_9_use_weapon.exe: phony scenarios/scenario_9_use_weapon.exe
 
 # =============================================================================
 # Folder targets.
@@ -179,7 +2296,21 @@ build RoguelikeEngine: phony RoguelikeEngine.exe
 #############################################
 # Folder: D:/RoguelikeEngine/build
 
-build all: phony RoguelikeEngine.exe
+build all: phony roguelike_game.exe tests/all scenarios/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/RoguelikeEngine/build/scenarios
+
+build scenarios/all: phony scenarios/scenario_10_clear_level.exe scenarios/scenario_11_boss_fight.exe scenarios/scenario_12_mod_loading.exe scenarios/scenario_13_use_armor.exe scenarios/scenario_1_game_start.exe scenarios/scenario_2_level_generation.exe scenarios/scenario_3_player_movement.exe scenarios/scenario_4_combat_victory.exe scenarios/scenario_5_combat_death.exe scenarios/scenario_6_combat_escape.exe scenarios/scenario_7_pickup_item.exe scenarios/scenario_8_use_potion.exe scenarios/scenario_9_use_weapon.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/RoguelikeEngine/build/tests
+
+build tests/all: phony tests/roguelike_tests.exe
 
 # =============================================================================
 # Built-in targets
@@ -188,14 +2319,14 @@ build all: phony RoguelikeEngine.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja D$:/RoguelikeEngine/build/cmake_install.cmake: RERUN_CMAKE | C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.1.1/CMakeCXXCompiler.cmake CMakeFiles/4.1.1/CMakeRCCompiler.cmake CMakeFiles/4.1.1/CMakeSystem.cmake D$:/RoguelikeEngine/CMakeLists.txt
+build build.ninja D$:/RoguelikeEngine/build/cmake_install.cmake D$:/RoguelikeEngine/build/tests/cmake_install.cmake D$:/RoguelikeEngine/build/scenarios/cmake_install.cmake D$:/RoguelikeEngine/build/tests/CTestTestfile.cmake: RERUN_CMAKE | C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CTest.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestTargets.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestUseLaunchers.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/DartConfiguration.tcl.in C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Templates/CTestScript.cmake.in CMakeCache.txt CMakeFiles/4.1.1/CMakeCCompiler.cmake CMakeFiles/4.1.1/CMakeCXXCompiler.cmake CMakeFiles/4.1.1/CMakeRCCompiler.cmake CMakeFiles/4.1.1/CMakeSystem.cmake D$:/RoguelikeEngine/CMakeLists.txt D$:/RoguelikeEngine/scenarios/CMakeLists.txt D$:/RoguelikeEngine/tests/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.1.1/CMakeCXXCompiler.cmake CMakeFiles/4.1.1/CMakeRCCompiler.cmake CMakeFiles/4.1.1/CMakeSystem.cmake D$:/RoguelikeEngine/CMakeLists.txt: phony
+build C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CTest.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestTargets.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestUseLaunchers.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/DartConfiguration.tcl.in C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Templates/CTestScript.cmake.in CMakeCache.txt CMakeFiles/4.1.1/CMakeCCompiler.cmake CMakeFiles/4.1.1/CMakeCXXCompiler.cmake CMakeFiles/4.1.1/CMakeRCCompiler.cmake CMakeFiles/4.1.1/CMakeSystem.cmake D$:/RoguelikeEngine/CMakeLists.txt D$:/RoguelikeEngine/scenarios/CMakeLists.txt D$:/RoguelikeEngine/tests/CMakeLists.txt: phony
 
 
 #############################################

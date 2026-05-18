@@ -32,6 +32,9 @@ void Monster::attack(Player* target) {
 
 void Monster::takeDamage(int amount) {
     health -= amount;
+    if (health < 0) {
+        health = 0;
+    }
     std::cout << name << " takes " << amount << " damage. HP: " << health << "/" << maxHealth << std::endl;
 }
 

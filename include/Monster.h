@@ -29,6 +29,7 @@ public:
     void setExpReward(int newExp) { expReward = newExp; }
     bool isAlive() const { return health > 0; }
     
+    std::string getId() const { return id; }
     std::string getName() const { return name; }
     int getHealth() const { return health; }
     int getMaxHealth() const { return maxHealth; }

@@ -12,6 +12,7 @@ int main() {
     
     GameEngine engine;
     engine.start();
+    Logger::getInstance()->saveToFile("../game.log");
     
     return 0;
 }

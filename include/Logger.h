@@ -14,6 +14,7 @@ public:
     static Logger* getInstance();
     void write(const std::string& message);
     void saveToFile(const std::string& filename);
+    void clear() { messages.clear(); }
     ~Logger();
 };
 
